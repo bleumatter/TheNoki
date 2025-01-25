@@ -290,7 +290,7 @@ hr {
 
 /* OVERALL FORMATTING */
 
-.TemplateName {
+.CharlesCox {
   --Title: 'Corben', cursive;
   --H2: 'Sarabun', sans-serif;
   --Sans: verdana;
@@ -313,82 +313,82 @@ hr {
 
 /* BOLD, ITALICS, UNDERLINE */
 
-.TemplateName b, .TemplateName i, .TemplateName u {
+.CharlesCox b, .CharlesCox i, .CharlesCox u {
   background: none;
   -webkit-background-clip: revert!important;
   -webkit-text-fill-color: revert;
   color: var(--Font_Color);
 }
 
-.TemplateName b, .TemplateName i {
+.CharlesCox b, .CharlesCox i {
   opacity: .8;
 }
 
-.TemplateName u {
+.CharlesCox u {
   opacity: 1;
   border-bottom: 1px solid var(--Accent_Color);
 	padding: 1px 0px;
   text-decoration: none;
 }
 
-.darkmode .TemplateName, .darkmode .TemplateName b, .darkmode .TemplateName i, .darkmode .TemplateName u {
+.darkmode .CharlesCox, .darkmode .CharlesCox b, .darkmode .CharlesCox i, .darkmode .CharlesCox u {
   color: var(--text);
 }
 
 
 /* LINK FORMATTING */
 
-.TemplateName a, .TemplateName a:visited, .TemplateName a:hover, .TemplateName a:active {
+.CharlesCox a, .CharlesCox a:visited, .CharlesCox a:hover, .CharlesCox a:active {
   text-decoration: none;
 }
 
-.TemplateName a, .TemplateName a:visited {
+.CharlesCox a, .CharlesCox a:visited {
   border-bottom: 1px solid var(--Accent_Color);
 	padding: 1px 0px;
   font-weight: 800;
 	text-transform: lowercase;
 }
 
-.TemplateName a, .TemplateName a:visited {
+.CharlesCox a, .CharlesCox a:visited {
   transition: color .8s;
   color: var(--Font_Color);
 }
 
-.TemplateName a:hover, .TemplateName a:active {
+.CharlesCox a:hover, .CharlesCox a:active {
   color: var(--Accent_Color);
 }
 
-.darkmode .TemplateName a, .darkmode .TemplateName a:visited {
+.darkmode .CharlesCox a, .darkmode .CharlesCox a:visited {
   color: var(--Accent_Color);
 }
 
-.darkmode .TemplateName a:hover, .darkmode .TemplateName a:active {
+.darkmode .CharlesCox a:hover, .darkmode .CharlesCox a:active {
   color: var(--text);
 }
 
 
 /* H2 & H3 */
 
-.TemplateName h2, .TemplateName h3 {
+.CharlesCox h2, .CharlesCox h3 {
   width: fit-content;
   padding: 1px 0px;
   background: none;
 	text-transform: lowercase;
 }
 
-.TemplateName h2 {
+.CharlesCox h2 {
   margin: -4px 0 4px;
   border-bottom: 4px solid var(--Accent_Color);
   font: 600 calc(var(--Font_Size) * 2) var(--H2);
 	color: var(--Font_Color)!important;
 }
 
-.darkmode .TemplateName h2 {
+.darkmode .CharlesCox h2 {
   border-bottom: 4px solid #ffffff;
   color: var(--Accent_Color)!important;
 }
 
-.TemplateName h3 {
+.CharlesCox h3 {
   margin: 12px 0 0;
   opacity: 1;
   border-bottom: 0px;
@@ -401,14 +401,14 @@ hr {
 
 /* LIST FORMATTING */
 
-.TemplateName ol {
+.CharlesCox ol {
 	list-style-type: none;
 	counter-reset: ol-counter;
 	margin: 0;
 	padding-inline-start: 5%;
 }
 
-.TemplateName ol li {
+.CharlesCox ol li {
 	display: table;
   margin: 0;
   border: none!important;
@@ -418,7 +418,7 @@ hr {
 	counter-increment: ol-counter;
 }
 
-.TemplateName ol li:before {
+.CharlesCox ol li:before {
 	display: table-cell;
   margin-right: 5px;
   width: 28px; 
@@ -431,13 +431,13 @@ hr {
   content: counter(ol-counter,decimal-leading-zero);
 }
 
-.TemplateName ul {
+.CharlesCox ul {
 	margin: 0;
 	padding-inline-start: 5%;
   list-style-type: none;
 }
 
-.TemplateName ul li {
+.CharlesCox ul li {
 	display: table;
   margin: 0;
   border: none;
@@ -446,7 +446,7 @@ hr {
 	text-align: justify;
 }
 
-.TemplateName ul li:before {
+.CharlesCox ul li:before {
 	display: table-cell;
 	margin-right: 5px;
   width: 24px;
@@ -458,32 +458,32 @@ hr {
   content: /*counter(listStyle, circle)*/var(--Accent_Icon)!important;
 }
 
-.TemplateName ol li ul li {
+.CharlesCox ol li ul li {
 	margin: 10px 0 0;
   border: none;
   padding: 0px;
 }
 
-.TemplateName ul li ul li {
+.CharlesCox ul li ul li {
 	margin: 10px 0 0;
 	border: none;
   padding: 0px;
 }
 
-.TemplateName ul.unset li {
+.CharlesCox ul.unset li {
 	margin: 0!important;
 	border: none!important;
 	padding: 0!important;
 }
 
-.TemplateName ul.unset li:before { 
+.CharlesCox ul.unset li:before { 
   color: var(--Accent_Color); 
 }
 
 
 /* TITLE FORMATTING */
 
-.TemplateName_Header {
+.CharlesCox_Header {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
@@ -494,7 +494,7 @@ hr {
   text-transform: lowercase;
 }
 
-.TemplateName_Title {
+.CharlesCox_Title {
   order: 1;
   flex: 1 0 80%;
   box-sizing: border-box!important;
@@ -506,18 +506,18 @@ hr {
   text-align: right;  
 }
 
-.TemplateName_Title a, .TemplateName_Title a:visited, .TemplateName_Title a:hover, .TemplateName_Title a:active {
+.CharlesCox_Title a, .CharlesCox_Title a:visited, .CharlesCox_Title a:hover, .CharlesCox_Title a:active {
   border-bottom: 0;
 	padding: 0px;
   font-weight: 600;
 }
 
-.TemplateName_Symbol {
+.CharlesCox_Symbol {
   order: 2;
   box-sizing: border-box!important;
 }
 
-.TemplateName_Symbol i {
+.CharlesCox_Symbol i {
   opacity: 1;
   background: none;
   -webkit-background-clip: revert!important;
@@ -526,49 +526,49 @@ hr {
   color: var(--Font_Color);
 }
 
-.darkmode .TemplateName_Symbol i {
+.darkmode .CharlesCox_Symbol i {
   color: var(--Accent_Color);
 }
 
 
 /* MAIN CONTENT FORMATTING */
 
-.TemplateName_Content {
+.CharlesCox_Content {
   padding: 0% 5%;
 }
 
 /* DROP-DOWN FORMATTING */
 
-.TemplateName_Button {
+.CharlesCox_Button {
   all: unset;
   width: 100%;
   cursor: s-resize;
 }
 
-.TemplateName_Hide {
+.CharlesCox_Hide {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   margin: 0;
   max-height: 0;
 }
 
-.TemplateName_Hide > :last-child { 
+.CharlesCox_Hide > :last-child { 
   margin: 1em 0 0; 
 } 
 
-.TemplateName_Thread_Description { 
+.CharlesCox_Thread_Description { 
   margin-bottom: 1em;
   padding-left: 5%;
 }
 
-.TemplateName hr {
+.CharlesCox hr {
 	margin: 14px 0;
   border: 0px;
   height: 1px;
 	background: var(--Accent_Color);
 }
 
-.TemplateName_Hearts_Info {
+.CharlesCox_Hearts_Info {
   margin: auto;
   margin-top: 14px;
   box-sizing: border-box!important;
@@ -580,7 +580,7 @@ hr {
 
 /* BOTTOM FORMATTING */
 
-.TemplateName_Bottom {
+.CharlesCox_Bottom {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -590,28 +590,28 @@ hr {
   box-sizing: border-box!important;
 }
 
-.TemplateName_Bottom img {
+.CharlesCox_Bottom img {
   order: 2;
   box-sizing: border-box!important;
   max-width: 147px;
   padding: 10px;
 }
 
-.TemplateName_Platonic {
+.CharlesCox_Platonic {
   order: 1;
   border-top: 1px solid var(--Accent_Color);
   border-left: 1px solid var(--Accent_Color);
   box-sizing: border-box!important;
 }
 
-.TemplateName_Romantic {
+.CharlesCox_Romantic {
   order: 3;
   border-right: 1px solid var(--Accent_Color);
   border-bottom: 1px solid var(--Accent_Color);
   box-sizing: border-box!important;
 }
 
-.TemplateName_Platonic, .TemplateName_Romantic {
+.CharlesCox_Platonic, .TemplateName_Romantic {
   max-width: 147px;
   height: 147px;
   padding: 10px;
@@ -622,7 +622,7 @@ hr {
   text-align: center;
 }
 
-.TemplateName_Platonic i, .TemplateName_Romantic i {
+.CharlesCox_Platonic i, .TemplateName_Romantic i {
   opacity: 1;
   padding-top: 10%;
   background: none;
