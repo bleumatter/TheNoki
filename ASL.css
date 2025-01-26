@@ -282,7 +282,7 @@ hr {
 
 /* ACCENTS PAGE */
 
-.Unique_Character {
+.CharlesCox {
   --Accent_Color: #849BCC;
   --Accent_Icon: "⚘";
 }
@@ -290,7 +290,7 @@ hr {
 
 /* OVERALL FORMATTING */
 
-.CharlesCox {
+.blujournal {
   --Title: 'Corben', cursive;
   --H2: 'Sarabun', sans-serif;
   --Sans: verdana;
@@ -313,82 +313,82 @@ hr {
 
 /* BOLD, ITALICS, UNDERLINE */
 
-.CharlesCox b, .CharlesCox i, .CharlesCox u {
+.blujournal b, .blujournal i, .blujournal u {
   background: none;
   -webkit-background-clip: revert!important;
   -webkit-text-fill-color: revert;
   color: var(--Font_Color);
 }
 
-.CharlesCox b, .CharlesCox i {
+.blujournal b, .blujournal i {
   opacity: .8;
 }
 
-.CharlesCox u {
+.blujournal u {
   opacity: 1;
   border-bottom: 1px solid var(--Accent_Color);
 	padding: 1px 0px;
   text-decoration: none;
 }
 
-.darkmode .CharlesCox, .darkmode .CharlesCox b, .darkmode .CharlesCox i, .darkmode .CharlesCox u {
+.darkmode .blujournal, .darkmode .blujournal b, .darkmode .blujournal i, .darkmode .blujournal u {
   color: var(--text);
 }
 
 
 /* LINK FORMATTING */
 
-.CharlesCox a, .CharlesCox a:visited, .CharlesCox a:hover, .CharlesCox a:active {
+.blujournal a, .blujournal a:visited, .blujournal a:hover, .blujournal a:active {
   text-decoration: none;
 }
 
-.CharlesCox a, .CharlesCox a:visited {
+.blujournal a, .blujournal a:visited {
   border-bottom: 1px solid var(--Accent_Color);
 	padding: 1px 0px;
   font-weight: 800;
 	text-transform: lowercase;
 }
 
-.CharlesCox a, .CharlesCox a:visited {
+.blujournal a, .blujournal a:visited {
   transition: color .8s;
   color: var(--Font_Color);
 }
 
-.CharlesCox a:hover, .CharlesCox a:active {
+.blujournal a:hover, .blujournal a:active {
   color: var(--Accent_Color);
 }
 
-.darkmode .CharlesCox a, .darkmode .CharlesCox a:visited {
+.darkmode .blujournal a, .darkmode .blujournal a:visited {
   color: var(--Accent_Color);
 }
 
-.darkmode .CharlesCox a:hover, .darkmode .CharlesCox a:active {
+.darkmode .blujournal a:hover, .darkmode .blujournal a:active {
   color: var(--text);
 }
 
 
 /* H2 & H3 */
 
-.CharlesCox h2, .CharlesCox h3 {
+.blujournal h2, .blujournal h3 {
   width: fit-content;
   padding: 1px 0px;
   background: none;
 	text-transform: lowercase;
 }
 
-.CharlesCox h2 {
+.blujournal h2 {
   margin: -4px 0 4px;
   border-bottom: 4px solid var(--Accent_Color);
   font: 600 calc(var(--Font_Size) * 2) var(--H2);
 	color: var(--Font_Color)!important;
 }
 
-.darkmode .CharlesCox h2 {
+.darkmode .blujournal h2 {
   border-bottom: 4px solid #ffffff;
   color: var(--Accent_Color)!important;
 }
 
-.CharlesCox h3 {
+.blujournal h3 {
   margin: 12px 0 0;
   opacity: 1;
   border-bottom: 0px;
@@ -401,14 +401,14 @@ hr {
 
 /* LIST FORMATTING */
 
-.CharlesCox ol {
+.blujournal ol {
 	list-style-type: none;
 	counter-reset: ol-counter;
 	margin: 0;
 	padding-inline-start: 5%;
 }
 
-.CharlesCox ol li {
+.blujournal ol li {
 	display: table;
   margin: 0;
   border: none!important;
@@ -418,7 +418,7 @@ hr {
 	counter-increment: ol-counter;
 }
 
-.CharlesCox ol li:before {
+.blujournal ol li:before {
 	display: table-cell;
   margin-right: 5px;
   width: 28px; 
@@ -431,13 +431,13 @@ hr {
   content: counter(ol-counter,decimal-leading-zero);
 }
 
-.CharlesCox ul {
+.blujournal ul {
 	margin: 0;
 	padding-inline-start: 5%;
   list-style-type: none;
 }
 
-.CharlesCox ul li {
+.blujournal ul li {
 	display: table;
   margin: 0;
   border: none;
@@ -446,7 +446,7 @@ hr {
 	text-align: justify;
 }
 
-.CharlesCox ul li:before {
+.blujournal ul li:before {
 	display: table-cell;
 	margin-right: 5px;
   width: 24px;
@@ -458,32 +458,32 @@ hr {
   content: /*counter(listStyle, circle)*/var(--Accent_Icon)!important;
 }
 
-.CharlesCox ol li ul li {
+.blujournal ol li ul li {
 	margin: 10px 0 0;
   border: none;
   padding: 0px;
 }
 
-.CharlesCox ul li ul li {
+.blujournal ul li ul li {
 	margin: 10px 0 0;
 	border: none;
   padding: 0px;
 }
 
-.CharlesCox ul.unset li {
+.blujournal ul.unset li {
 	margin: 0!important;
 	border: none!important;
 	padding: 0!important;
 }
 
-.CharlesCox ul.unset li:before { 
+.blujournal ul.unset li:before { 
   color: var(--Accent_Color); 
 }
 
 
 /* TITLE FORMATTING */
 
-.CharlesCox_Header {
+.blujournal_Header {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
@@ -494,7 +494,7 @@ hr {
   text-transform: lowercase;
 }
 
-.CharlesCox_Title {
+.blujournal_Title {
   order: 1;
   flex: 1 0 80%;
   box-sizing: border-box!important;
@@ -506,18 +506,18 @@ hr {
   text-align: right;  
 }
 
-.CharlesCox_Title a, .CharlesCox_Title a:visited, .CharlesCox_Title a:hover, .CharlesCox_Title a:active {
+.blujournal_Title a, .blujournal_Title a:visited, .blujournal_Title a:hover, .blujournal_Title a:active {
   border-bottom: 0;
 	padding: 0px;
   font-weight: 600;
 }
 
-.CharlesCox_Symbol {
+.blujournal_Symbol {
   order: 2;
   box-sizing: border-box!important;
 }
 
-.CharlesCox_Symbol i {
+.blujournal_Symbol i {
   opacity: 1;
   background: none;
   -webkit-background-clip: revert!important;
@@ -526,49 +526,49 @@ hr {
   color: var(--Font_Color);
 }
 
-.darkmode .CharlesCox_Symbol i {
+.darkmode .blujournal_Symbol i {
   color: var(--Accent_Color);
 }
 
 
 /* MAIN CONTENT FORMATTING */
 
-.CharlesCox_Content {
+.blujournal_Content {
   padding: 0% 5%;
 }
 
 /* DROP-DOWN FORMATTING */
 
-.CharlesCox_Button {
+.blujournal_Button {
   all: unset;
   width: 100%;
   cursor: s-resize;
 }
 
-.CharlesCox_Hide {
+.blujournal_Hide {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   margin: 0;
   max-height: 0;
 }
 
-.CharlesCox_Hide > :last-child { 
+.blujournal_Hide > :last-child { 
   margin: 1em 0 0; 
 } 
 
-.CharlesCox_Thread_Description { 
+.blujournal_Thread_Description { 
   margin-bottom: 1em;
   padding-left: 5%;
 }
 
-.CharlesCox hr {
+.blujournal hr {
 	margin: 14px 0;
   border: 0px;
   height: 1px;
 	background: var(--Accent_Color);
 }
 
-.CharlesCox_Hearts_Info {
+.blujournal_Hearts_Info {
   margin: auto;
   margin-top: 14px;
   box-sizing: border-box!important;
@@ -580,7 +580,7 @@ hr {
 
 /* BOTTOM FORMATTING */
 
-.CharlesCox_Bottom {
+.blujournal_Bottom {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -590,28 +590,28 @@ hr {
   box-sizing: border-box!important;
 }
 
-.CharlesCox_Bottom img {
+.blujournal_Bottom img {
   order: 2;
   box-sizing: border-box!important;
   max-width: 147px;
   padding: 10px;
 }
 
-.CharlesCox_Platonic {
+.blujournal_Platonic {
   order: 1;
   border-top: 1px solid var(--Accent_Color);
   border-left: 1px solid var(--Accent_Color);
   box-sizing: border-box!important;
 }
 
-.CharlesCox_Romantic {
+.blujournal_Romantic {
   order: 3;
   border-right: 1px solid var(--Accent_Color);
   border-bottom: 1px solid var(--Accent_Color);
   box-sizing: border-box!important;
 }
 
-.CharlesCox_Platonic, .CharlesCox_Romantic {
+.blujournal_Platonic, .blujournal_Romantic {
   max-width: 147px;
   height: 147px;
   padding: 10px;
@@ -622,7 +622,7 @@ hr {
   text-align: center;
 }
 
-.CharlesCox_Platonic i, .CharlesCox_Romantic i {
+.blujournal_Platonic i, .blujournal_Romantic i {
   opacity: 1;
   padding-top: 10%;
   background: none;
