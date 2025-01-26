@@ -12,7 +12,7 @@
 
 .CharlesCox {
   --Accent_Color: #416239;
-  --Accent_Icon: "";
+  --Accent_Icon: "<i class="ph ph-poker-chip"></i>";
 }
 
 
@@ -357,6 +357,10 @@
   -webkit-background-clip: revert!important;
   -webkit-text-fill-color: revert;
   font-size: 60px;
+}
+
+.blujournal_Symbol a {
+  border-bottom: 0px;
 }
 
 
