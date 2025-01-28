@@ -20,6 +20,20 @@
   --Accent_Icon: "֍";
 }
 
+.Ashenix {
+  --Accent_Color: #6082B6;
+  --Accent_Icon: "⚇";
+}
+
+.DexterKing {
+  --Accent_Color: #7B3434;
+  --Accent_Icon: "☠";
+}
+
+.DorotheaLockwood {
+  --Accent_Color: #94C380;
+  --Accent_Icon: "🖙";
+}
 
 /* OVERALL FORMATTING */
 
