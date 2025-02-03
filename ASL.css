@@ -436,6 +436,7 @@
 .moodboard img { 
 	display: block; 
 	border-radius: 5px; 
+	padding: 5px;
 }
 .woahbox { 
 	width: 178px; 
