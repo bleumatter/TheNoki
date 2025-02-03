@@ -421,7 +421,7 @@
 .moodboard { 
 	height: 600px; 
 	padding: 10px 0px 0px 0px; 
-	width: 530px; 
+	width: 600px; 
 	display: flex; 
 	flex-flow: row wrap; 
 	align-items: flex-start; 
