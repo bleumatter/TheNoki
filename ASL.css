@@ -416,6 +416,9 @@
 .darkmode .Template_Name_Romantic_Name i, .darkmode .Template_Name_Romantic_Small_Name i {
  color: #939393;
 }
+.darkmode .notable-quotes-4 {
+	background-color: #222; color: #f3f3f3;
+}
 
 /* MOODBOARD */
 .moodboard { 
