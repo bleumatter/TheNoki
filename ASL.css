@@ -436,7 +436,7 @@
 .moodboard img { 
 	display: block; 
 	border-radius: 5px; 
-	padding: 5px;
+	padding: 10px;
 }
 .woahbox { 
 	width: 178px; 
@@ -538,3 +538,9 @@
 	text-transform: lowercase; 
 	letter-spacing: -1px; 
 }
+.devblu { width: 650px }
+.devblu h11 {  font-size: 30pt; font-family: Corben; color: var(--Accent_Color); font-style: italic; font-weight: bold  }
+.devblu span { position:absolute;background-color:#416239;height:100px;width:100px; }
+.devblu img { border: 10px solid var(--Accent_Color); width: 570px; }
+.devblu a { float: left; padding: 5px; background-color: var(--Accent_Color); color: #fff; margin-left: 20px; margin-right: 5px; margin-bottom: 10px; width: 177px }
+.devblu a:hover { color: black; }
