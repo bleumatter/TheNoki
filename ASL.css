@@ -425,11 +425,10 @@
 	flex-flow: row wrap; 
 	align-items: flex-start; 
 	justify-content: flex-start; 
-	background-color: var(--Accent_Color);
+	background-color: #fff;
 }
 .moodboard div { 
 	padding: 10px; 
-	background-color: #ddd; 
 	margin-left: 10px; 
 	margin-bottom: 10px; 
 	border-radius: 5px; 
