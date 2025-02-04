@@ -122,11 +122,11 @@
   color: var(--Accent_Color);
 }
 
-.darkmode .blujournal a, .darkmode .blujournal a:visited {
+. .blujournal a, . .blujournal a:visited {
   color: var(--Accent_Color);
 }
 
-.darkmode .blujournal a:hover, .darkmode .blujournal a:active {
+. .blujournal a:hover, . .blujournal a:active {
   color: var(--text);
 }
 
@@ -147,7 +147,7 @@
 	color: var(--Font_Color)!important;
 }
 
-.darkmode .blujournal h2 {
+. .blujournal h2 {
   border-bottom: 4px solid #ffffff;
   color: var(--Accent_Color)!important;
 }
@@ -290,7 +290,7 @@
   color: var(--Font_Color);
 }
 
-.darkmode .blujournal_Symbol i {
+. .blujournal_Symbol i {
   color: var(--Accent_Color);
 }
 
@@ -416,7 +416,7 @@
 .darkmode .Template_Name_Romantic_Name i, .darkmode .Template_Name_Romantic_Small_Name i {
  color: #939393;
 }
-.darkmode .notable-quotes-4, .notable-quotes-2, .notable-quotes-5 {
+.darkmode .notable-quotes-4, .notable-quotes-2, .notable-quotes-5, .notable-quotes-1 {
 	background-color: #222222; color: #f3f3f3;
 }
 
