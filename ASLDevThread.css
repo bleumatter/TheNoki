@@ -22,4 +22,4 @@
 .BluPostDate a { text-align: right; font: 11px Quicksand; line-height: 12px; color: #6b6b6b; font-style: italic  }
 
 .BluPost b:before { content: open-quote; } 
-.BluPost b:after { content: close-quote; 
+.BluPost b:after { content: close-quote; }
