@@ -1,4 +1,6 @@
-.Aaron { --Accent_Color: #94C380;}
+.Aaron { 
+  --Accent_Color: #94C380;
+}
 
 
 .Blucontent { width: 550px; padding: 30px; text-align: justify; font: 12px Quicksand; line-height: 14px; color: #6b6b6b; background-image:url(https://image.ibb.co/btvYeK/transparent_flowers_4.png); background-color:  var(--Accent_Color); text-indent: 30px; background-size:cover; box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);}
