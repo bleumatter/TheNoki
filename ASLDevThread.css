@@ -132,7 +132,7 @@
 
 .BluPost { padding: 20px 20px 10px 20px; text-align: justify; font: 12px Quicksand; line-height: 14px; color: #6b6b6b; background-color: #fff; border: solid 15px #eee; text-indent: 30px; }
 
-.BluPost img { width: 130px; height: 130px; float: left; margin: -65px 15px 10px -5px; border: solid 8px var(--Accent_Color2); padding: 7px; opacity: .73; }
+.BluPost img { width: 130px; height: 130px; float: left; margin: -65px 15px 10px -5px; border: solid 8px var(--Accent_Color); padding: 7px; opacity: .73; }
 
 .BluPost b, .Aaroncontent u, .Aaroncontent s { color: var(--Accent_Color); font: 13px Quicksand; background: none; -webkit-background-clip: revert!important; -webkit-text-fill-color: revert; font-weight: 800; }
 
