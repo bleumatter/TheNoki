@@ -19,7 +19,7 @@
 .CharlesCox {
   --Accent_Color: #416239;
   --Accent_Color2: #fff;
-  --Accent_background: "https://i.postimg.cc/PrwMhqZX/asfalt-dark.png";
+  --Accent_background: url('https://i.postimg.cc/PrwMhqZX/asfalt-dark.png');
 }
 
 .DexterKing {
