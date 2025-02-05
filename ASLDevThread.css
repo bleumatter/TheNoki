@@ -6,12 +6,127 @@
 
 .AaronObrien {
   --Accent_Color: #EF863D;
-  --Accent_Icon: "֍";
+  --Accent_Color2: #fff;
+  --Accent_background: "https://image.ibb.co/btvYeK/transparent_flowers_4.png";
+}
+
+.Ashenix {
+  --Accent_Color: #6082B6;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.CharlesCox {
+  --Accent_Color: #416239;
+  --Accent_Color2: #fff;
+  --Accent_background: "https://i.postimg.cc/PrwMhqZX/asfalt-dark.png";
+}
+
+.DexterKing {
+  --Accent_Color: #7B3434;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.DorotheaLockwood {
+  --Accent_Color: #94C380;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.DravenBlackwell {
+  --Accent_Color: #94C380;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.Hawkeye {
+  --Accent_Color: #b8453e;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.Isaac {
+  --Accent_Color: #;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.Kai {
+  --Accent_Color: #;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.LouiseWrright {
+  --Accent_Color: #;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.LyleReed {
+  --Accent_Color: #;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.Ma-Ri {
+  --Accent_Color: #;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.OliverDunn {
+  --Accent_Color: #;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.Pixel {
+  --Accent_Color: #;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.Ramiel {
+  --Accent_Color: #;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.SilasWynters {
+  --Accent_Color: #;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.SimonBaug {
+  --Accent_Color: #604F8E;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.Somhairle {
+  --Accent_Color: #;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+
+.TheodoreWoodrowe {
+  --Accent_Color: #;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
+  
+.Khor {
+  --Accent_Color: #55657B;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
 }
 
 /* TEMPLATE BELOW */
 
-.Blucontent { width: 550px; padding: 30px; text-align: justify; font: 12px Quicksand; line-height: 14px; color: #6b6b6b; background-image:url(https://image.ibb.co/btvYeK/transparent_flowers_4.png); background-color:  var(--Accent_Color); text-indent: 30px; background-size:cover; box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); }
+.Blucontent { width: 550px; padding: 30px; text-align: justify; font: 12px Quicksand; line-height: 14px; color: #6b6b6b; background-image:url(--Accent_background); background-color:  var(--Accent_Color); text-indent: 30px; background-size:cover; box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); }
 
 .Blucontent a { color: var(--Accent_Color); }
 
