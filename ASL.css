@@ -36,6 +36,11 @@
   --Accent_Icon: "🖙";
 }
 
+.JPL {
+  --Accent_Color: #9c2f44;
+  --Accent_Icon: "";
+}
+
 .SimonBaug {
   --Accent_Color: #604F8E;
   --Accent_Icon: "☣";
