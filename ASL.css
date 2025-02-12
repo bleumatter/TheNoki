@@ -57,6 +57,11 @@
   --Accent_Color: #b8453e;
   --Accent_Icon: "";
 }
+.Ramiel {
+  --Accent_Color: #9B9FCC;
+  --Accent_Color2: #fff;
+  --Accent_background: "☠";
+}
 
 /* OVERALL FORMATTING */
 
