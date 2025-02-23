@@ -552,12 +552,24 @@
 	text-transform: lowercase; 
 	letter-spacing: -1px; 
 }
-.devblu { width: 650px }
-.devblu h11 {  font-size: 30pt; font-family: Corben; color: var(--Accent_Color); font-style: italic; font-weight: bold  }
-.devblu span { position:absolute;background-color:#416239;height:100px;width:100px; }
-.devblu img { border: 10px solid var(--Accent_Color); width: 570px; }
-.devblu a { float: left; padding: 5px; background-color: var(--Accent_Color); color: #fff; margin-left: 20px; margin-right: 5px; margin-bottom: 10px; width: 177px }
-.devblu a:hover { color: black; }
+.devblu { 
+	width: 650px 
+}
+.devblu h11 {  
+	font-size: 30pt; font-family: Corben; color: var(--Accent_Color); font-style: italic; font-weight: bold  
+}
+.devblu span { 
+	position:absolute;background-color:#416239;height:100px;width:100px; 
+}
+.devblu img { 
+	border: 10px solid var(--Accent_Color); width: 570px; 
+}
+.devblu a { 
+	float: left; padding: 5px; background-color: var(--Accent_Color); color: #fff; margin-left: 20px; margin-right: 5px; margin-bottom: 10px; width: 177px 
+}
+.devblu a:hover { 
+	color: black; 
+		}
 
 /* 100+ QUESTIONS FOR DEV SECTION */
 
@@ -576,15 +588,35 @@
 .BluQuestions ol { 
 	list-style-type: none; counter-reset: ol-counter; margin: 0; padding-inline-start: 5%; 
 }
-.BluQuestions ol li { display: table; margin: 10px; border: none!important; width: 100%; padding: 0; text-align: justify; counter-increment: ol-counter; }
-.BluQuestions ol li:before { display: table-cell; margin-right: 5px; width: 35px;  padding: 0; font-size: calc(var(--Font_Size) - 1px); font-family: var(--Sans); font-weight: 700; letter-spacing: 1px; color: var(--Accent_Color); content: counter(ol-counter,decimal-leading-zero); }
-.BluQuestions ul { margin: 0; list-style-type: none; }
-.BluQuestions ul li { display: table; margin: 0; border: none; width: 100%; padding: 0; text-align: justify; }
-.BluQuestions ul li:before { display: table-cell; margin-right: 5px; width: 24px; padding: 0; font-size: calc(var(--Font_Size) * 1.1); font-family: var(--Sans); font-weight: 700; color: var(--Accent_Color); content: /*counter(listStyle, circle)*/var(--Accent_Icon)!important; }
-.BluQuestions ol li ul li { margin: 10px 0 0; border: none; padding: 0px; }
-.BluQuestionsul li ul li {  margin: 10px 0 0; border: none; padding: 0px; }
-.BluQuestions ul.unset li { margin: 0!important; border: none!important; padding: 0!important; }
-.BluQuestions ul.unset li:before {  color: var(--Accent_Color); }
-.QuestionList { overflow: auto; height: 500px; padding-right: 20px; overflow: auto; scrollbar-color: var(--Accent_Color) transparent; scrollbar-width: thin; }
+.BluQuestions ol li { 
+	display: table; margin: 10px; border: none!important; width: 100%; padding: 0; text-align: justify; counter-increment: ol-counter; 
+}
+.BluQuestions ol li:before { 
+	display: table-cell; margin-right: 5px; width: 35px;  padding: 0; font-size: calc(var(--Font_Size) - 1px); font-family: var(--Sans); font-weight: 700; letter-spacing: 1px; color: var(--Accent_Color); content: counter(ol-counter,decimal-leading-zero); 
+}
+.BluQuestions ul { 
+	margin: 0; list-style-type: none; 
+}
+.BluQuestions ul li { 
+	display: table; margin: 0; border: none; width: 100%; padding: 0; text-align: justify; 
+}
+.BluQuestions ul li:before { 
+	display: table-cell; margin-right: 5px; width: 24px; padding: 0; font-size: calc(var(--Font_Size) * 1.1); font-family: var(--Sans); font-weight: 700; color: var(--Accent_Color); content: /*counter(listStyle, circle)*/var(--Accent_Icon)!important; 
+}
+.BluQuestions ol li ul li { 
+	margin: 10px 0 0; border: none; padding: 0px; 
+}
+.BluQuestionsul li ul li { 
+	margin: 10px 0 0; border: none; padding: 0px; 
+}
+.BluQuestions ul.unset li { 
+	margin: 0!important; border: none!important; padding: 0!important; 
+}
+.BluQuestions ul.unset li:before { 
+	color: var(--Accent_Color); 
+}
+.QuestionList { 
+	overflow: auto; height: 500px; padding-right: 20px; overflow: auto; scrollbar-color: var(--Accent_Color) transparent; scrollbar-width: thin; 
+}
 
 
