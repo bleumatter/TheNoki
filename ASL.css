@@ -427,7 +427,7 @@
 .darkmode .Template_Name_Romantic_Name i, .darkmode .Template_Name_Romantic_Small_Name i {
  color: #939393;
 }
-.darkmode .notable-quotes-4, .notable-quotes-2, .notable-quotes-5, .notable-quotes-31 {
+.darkmode .notable-quotes-4, .notable-quotes-2, .notable-quotes-5, .notable-quotes-31 .notable-quotes-1 {
 	background-color: #222222; color: #f3f3f3;
 }
 
@@ -551,6 +551,7 @@
 	padding-bottom: 10px; 
 	text-transform: lowercase; 
 	letter-spacing: -1px; 
+	background-color: #eeeeee;
 }
 .devblu { 
 	width: 650px 
