@@ -141,6 +141,10 @@
   color: var(--text);
 }
 
+.darkmode, .blujournal a, .blujournal a:visited, .blujournal a:hover, .blujournal a:active {
+	color: #fff
+}
+
 
 /* H2 & H3 */
 
