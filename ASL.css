@@ -110,6 +110,9 @@
   color: var(--text);
 }
 
+.darkmode, .blujournal h2 .blujournal_Title a, .blujournal_Title a:visited, .blujournal_Title a:hover, .blujournal_Title a:active {color: #fff;
+}
+
 
 /* LINK FORMATTING */
 
