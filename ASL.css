@@ -145,7 +145,7 @@
   color: var(--text);
 }
 
-.darkmode .blujournal a, .blujournal a:visited, .blujournal a:hover, .blujournal a:active {
+.darkmode .blujournal a, .darkmode .blujournal a:visited, .darkmode .blujournal a:hover, .darkmode .blujournal a:active {
 	color: #fff
 }
 
@@ -296,7 +296,7 @@
 	color: #000;
 }
 
-.darkmode .blujournal_Title a, .blujournal_Title a:visited, .blujournal_Title a:hover, .blujournal_Title a:active {
+.darkmode .blujournal_Title a, .darkmode .blujournal_Title a:visited, .darkmode .blujournal_Title a:hover, .darkmode .blujournal_Title a:active {
   border-bottom: 0;
 	padding: 0px;
   font-weight: 600;
