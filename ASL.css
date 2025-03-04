@@ -335,6 +335,10 @@
 	scrollbar-color:  var(--Accent_Color) transparent;
 	scrollbar-width: thin; 
 }
+.NotableQuoteTitle {
+	font: 20px ; 
+	line-height: 21px;
+}
 .NotableQuoteTitle a { 
 	font: 20px ; 
 	line-height: 21px; 
