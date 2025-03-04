@@ -296,6 +296,13 @@
 	color: #000;
 }
 
+.darkmode, .blujournal_Title a, .blujournal_Title a:visited, .blujournal_Title a:hover, .blujournal_Title a:active {
+  border-bottom: 0;
+	padding: 0px;
+  font-weight: 600;
+	color: #FFF;
+}
+
 .blujournal_Symbol {
   order: 2;
   box-sizing: border-box!important;
