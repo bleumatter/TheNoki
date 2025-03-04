@@ -111,7 +111,7 @@
 }
 
 .darkmode .blujournal h2 {
-	color: #ffffff;
+	color: #FFFFFF;
 }
 
 
@@ -166,7 +166,7 @@
 	color: var(--Font_Color)!important;
 }
 
-. .blujournal h2 {
+.darkmode .blujournal h2 {
   border-bottom: 4px solid #ffffff;
   color: var(--Accent_Color)!important;
 }
