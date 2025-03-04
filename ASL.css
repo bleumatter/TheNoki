@@ -324,6 +324,34 @@
   padding: 0% 5%;
 }
 
+/* QUOTES SECTION */
+.NotableQuote { 
+	line-height: 13.3px; 
+	font: 11px;
+	text-align justify;
+	max-height: 40px;
+	overflow : auto;
+	padding-right: 10px;
+	scrollbar-color:  var(--Accent_Color) transparent;
+	scrollbar-width: thin; 
+}
+.NotableQuoteTitle a { 
+	font: 20px ; 
+	line-height: 21px; 
+	-webkit-background-clip: revert!important; 
+	-webkit-text-fill-color: revert; 
+}
+.NotableQuote::-webkit-scrollbar-thumb:vertical { 
+	background-color: #eeeeee;
+	border: solid 1px #e3e3e3;
+	border-radius: 1px; 
+}
+.NotableQuote::-webkit-scrollbar { 
+	width: 4px;
+	background-color: transparent;
+	border-radius:0px; 
+}
+
 /* DROP-DOWN FORMATTING */
 
 .blujournal_Button {
@@ -421,7 +449,6 @@
 .blujournal_Symbol a {
   border-bottom: 0px;
 }
-
 
 /* WITHIN POST */
 .Template_Name_Platonic_Name i, .Template_Name_Platonic_Small_Name i {
