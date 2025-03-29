@@ -132,7 +132,7 @@
 
 /* TEMPLATE BELOW */
 
-.Blucontent { width: 550px; padding: 30px; text-align: justify; font: 12px Quicksand; line-height: 14px; color: #6b6b6b; background-image: var(--Accent_background); background-color:  var(--Accent_Color); text-indent: 30px; background-size:cover; box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); }
+.Blucontent { width: 550px; padding: 30px; text-align: justify; font: 12px Ariel; line-height: 14px; color: #6b6b6b; background-image: var(--Accent_background); background-color:  var(--Accent_Color); text-indent: 30px; background-size:cover; box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); }
 
 .Blucontent a { color: var(--Accent_Color); }
 
