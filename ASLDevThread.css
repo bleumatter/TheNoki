@@ -7,7 +7,7 @@
 .AaronObrien {
   --Accent_Color: #B7542A;
   --Accent_Color2: #fff;
-  --Accent_background: url('https://i.postimg.cc/VsW-CLCDF/flowers.png');
+  --Accent_background: url('');
 }
 
 .Ashenix {
@@ -19,7 +19,7 @@
 .CharlesCox {
   --Accent_Color: #A8801A;
   --Accent_Color2: #D7A03E;
-  --Accent_background: url('https://i.postimg.cc/PrwMhqZX/asfalt-dark.png');
+  --Accent_background: url('');
 }
 
 .DexterKing {
@@ -126,6 +126,11 @@
   
 .Khor {
   --Accent_Color: #55657B;
+  --Accent_Color2: #fff;
+  --Accent_background: url('');
+}
+.Isaac {
+  --Accent_Color: #2e2188;
   --Accent_Color2: #fff;
   --Accent_background: url('');
 }
