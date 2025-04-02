@@ -145,7 +145,7 @@
 
 .BluPost img { width: 130px; height: 130px; float: left; margin: -65px 15px 10px -5px; border: solid 8px var(--Accent_Color); padding: 7px; opacity: .73; }
 
-.BluPost b, .Aaroncontent u, .Aaroncontent s { color: var(--Accent_Color); font: 13px Quicksand; background: none; -webkit-background-clip: revert!important; -webkit-text-fill-color: revert; font-weight: 800; }
+.BluPost b, .Aaroncontent u, .Aaroncontent s { color: var(--Accent_Color); font: 13px Century Gothic; background: none; -webkit-background-clip: revert!important; -webkit-text-fill-color: revert; font-weight: 800; }
 
 .BluPost i { color: var(--Accent_Color); font: 13px georgia; font-style: italic; }
 
