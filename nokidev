@@ -4,6 +4,6 @@
 
 /* DROP-DOWN FORMATTING */
 
-.nokidev_Button { all: unset; width: 100%; cursor: s-resize; }
-.nokidev_Hide { overflow: hidden; transition: max-height 0.2s ease-out; margin: 0; max-height: 0; }
-.nokidev_Hide > :last-child { margin: 1em 0 0; } 
+.blujournal_Button { all: unset; width: 100%; cursor: s-resize; }
+.blujournal_Hide { overflow: hidden; transition: max-height 0.2s ease-out; margin: 0; max-height: 0; background: white; color: black; }
+.blujournal_Hide > :last-child { margin: 1em 0 0; }
