@@ -482,48 +482,6 @@
 	background-color: #222222; color: #f3f3f3;
 }
 
-/* MOODBOARD */
-.moodboard { 
-	padding: 5px 5px 5px 5px; 
-	width: 620px; 
-	padding: 5px;
-	display: flex; 
-	flex-flow: row wrap; 
-	align-items: flex-start; 
-	justify-content: flex-start; 
-}
-.moodboard div { 
-	padding: 5px; 
-	margin-left: 13px; 
-	margin-bottom: 5px; 
-	border-radius: 5px; 
-}
-.moodboard img { 
-	display: block; 
-	border-radius: 5px; 
-	padding: 10px;
-}
-.woahbox { 
-	width: 178px; 
-	border: 0px solid #B5B9B5; 
-	border-radius: 2px; 
-	padding: 3px 3px; 
-	margin: 4px; 
-	float: left; 
-	background: var(--Accent_Color);
-}
-.woahpost { 
-	padding: 3px; 
-	text-align:center; 
-	font: 4pt #fff; 
-	line-height: 10pt; 
-	font-weight: bold 
-}
-.woahboximage { 
-	width: 600px; 
-	border: 15px solid var(--Accent_Color); 
-}
-
 .devblu { 
 	width: 650px 
 }
