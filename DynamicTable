@@ -7,43 +7,34 @@
    --a1: url('https://64.media.tumblr.com/cf57b436e3a4310f9994efdda02d15f4/5d9b1ee1aac0590f-4b/s500x750/eb7492b7324f0492b38890431bbeb80e6cf5f673.gifv') }
 
 
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .reolContain { width: 550px; background-color: var(--dark); margin:10px;  position: relative; border: solid 1px var(--main); outline: black 8px solid; font-size: 9px; }
 
 .reolHeader { display: flex; flex-flow: column nowrap; align-items:center; background-image: var( --a1); background-size: 550px;   width: 550px; height: 290px; background-repeat: no-repeat;  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)); backdrop-filter: grayscale(70%);-webkit-filter: grayscale(70%);-moz-filter: contrast(200%); }
-
 .reolHeader img:first-child { width: 550px; height: 290px; backdrop-filter: grayscale(70%);-webkit-filter: grayscale(70%);-moz-filter: contrast(200%);  }
-
 .reolHeader:after { content:''; width: 550px; height: 290px; position: absolute; top: 0px; left: 0px; background-color: var(--main); opacity:.60;  linear-gradient(0deg, var(--main), transparent, transparent); }
 
 .reolBodyouter { padding: 50px 15px 15px 15px; background:linear-gradient(0deg, var(--darker), var(--dark) ); background-color:var(--darkest); }
 
 .reolBody { background-color: #fafafa; padding: 20px 20px 20px 20px; margin-top: -48px; text-align: justify; color:#7a7a7a; text-align: justify;  font-family: verdana; text-align: justify; font-size: 12px; line-height: 14px; border-radius: 0px 0px 0px 0px;  }
-
 .reolBody b { font-weight: 600; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(90%) }
 .reolBody b:before { content: open-quote; }
 .reolBody b:after { content: close-quote; }
 
 .reolBody h1 { margin: 0px 0px; height: 35px; display: flex; align-items: center; justify-content: center; font:200 35px/35px montserrat; color: var(--Accent); text-shadow: -1px -1px 0 #fafafa,  1px -1px 0 #fafafa,   -1px 1px 0 #fafafa,   1px 1px 0 #fafafa; }
-
 .reolBody h1:after { content:''; height: 1px; flex-grow: 1; margin-left: 10px; background-color: var(--Accent); border: 1px solid #fafafa; }
 
 .reolBody h22 { margin:0px; font:700 8px source sans pro; color:#bbb; text-transform:uppercase; text-align:center; }
 
 .reolBody h33 { margin:10px; height:25px; font:300 25px/25px montserrat alternates; color:#bababa; text-shadow: -1px -1px 0 #fafafa,  1px -1px 0 #fafafa, -1px 1px 0 #fafafa, 1px 1px 0 #fafafa; }
-
 .reolBody div bb { font:700 11px/14px Roboto; color:var(--reolAccent); text-shadow: -1px -1px 0 #fafafa,  1px -1px 0 #fafafa, -1px 1px 0 #fafafa, 1px 1px 0 #fafafa;  -webkit-background-clip: revert!important;  -webkit-text-fill-color: revert; }
-
 .reolBody div i { color:#aaa; }
-
 .reolBody div blockquote { margin: 0px; padding: 0px 25px; }
 
 .text-block { position: absolute; top: 258px; padding: 5px; font-size: 12px; font-weight: 550; letter-spacing: 0px; background-image: linear-gradient(90deg, transparent, var(--darkest), transparent); text-transform: uppercase; color: #000; font-family: Verdana; -webkit-text-stroke: .5px var(--palest);  -webkit-text-fill-color: #fafafa; left: 50px; }
 
 .realContainTag { right: 10px; color: var(--palest); background-color: var(--darkest); padding: 7px; text-transform: uppercase; -webkit-text-stroke: .4px var(--dark);  -webkit-text-fill-color: var(--palest); font-weight: 550; }
-
 .realContainTag a { right: 10px; color: var(--palest); padding: 7px; font-size: 10px; text-transform: uppercase; -webkit-text-stroke: .4px var(--dark);  -webkit-text-fill-color: var(--palest); font-weight: 550; }
 
 .fit { position: absolute; top: 150px; right: 14px; color: var(--palest); padding: 10px; font-size: 9px; line-height: 9px; font-weight: 550; background-color: var(--main); text-align: justify; transform: rotate(-2deg); text-transform: uppercase; outline: solid var(--palest) 1px; -webkit-text-stroke: .4px var(--darker);  -webkit-text-fill-color: white;font-family: Verdana;  }
@@ -57,5 +48,3 @@
  10% { outline-color: rgba( var(--darkest), 0.75); -webkit-outline--color }
  50% { outline-width: 7px; outline-offset: 4px; outline-color: rgba( var(--darkest), 0);-webkit-outline--color }
  100% { outline-width: 7px; outline-offset: 4px;   outline-color: rgba(102, 102, 102, 0);-webkit-outline--color }
-
-</style>
