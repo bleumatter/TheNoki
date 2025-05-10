@@ -24,7 +24,8 @@
 .NamicBody b { font-weight: 600; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(88%) }
 .NamicBody b:before { content: open-quote; }
 .NamicBody b:after { content: close-quote; }
-.NamicBody q { font-style: italic; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(88%) }
+.NamicBody i { font-style: italic; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(90%) }
+.NamicBody q { font-style: italic; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(90%) }
 .NamicBody q:before { content: open-quote; }
 .NamicBody q:after { content: close-quote; }
 
