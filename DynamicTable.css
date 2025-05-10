@@ -24,10 +24,10 @@
 .NamicBody b { font-weight: 600; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(88%); }
 .NamicBody b:before { content: open-quote; }
 .NamicBody b:after { content: close-quote; }
-.NamicBody ii { font-style: italic; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(90%); }
-.NamicBody qq { font-style: italic; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(90%); }
-.NamicBody qq:before { content: open-quote;font-style: italic; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(90%); }
-.NamicBody qq:after { content: close-quote;font-style: italic; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(90%); }
+.NamicBody ii { font-style: italic; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(88%); }
+.NamicBody qq { font-style: italic; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(88%); }
+.NamicBody qq:before { content: open-quote;font-style: italic; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(88%); }
+.NamicBody qq:after { content: close-quote;font-style: italic; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(88%); }
 
 .NamicBody h1 { margin: 0px 0px; height: 35px; display: flex; align-items: center; justify-content: center; font:200 35px/35px montserrat; color: var(--Accent); text-shadow: -1px -1px 0 var(--lightest),  1px -1px 0 var(--lightest),   -1px 1px 0 var(--lightest),   1px 1px 0 var(--lightest); }
 .NamicBody h1:after { content:''; height: 1px; flex-grow: 1; margin-left: 10px; background-color: var(--Accent); border: 1px solid var(--lightest); }
