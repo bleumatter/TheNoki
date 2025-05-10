@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+}
+
 .CharlesCox { 
    --main: #D6A321; 
    --palest: #CAD2C5;
@@ -5,9 +10,6 @@
    --darker: #354F52; 
    --darkest: #2F3E46;
    --a1: url('https://64.media.tumblr.com/cf57b436e3a4310f9994efdda02d15f4/5d9b1ee1aac0590f-4b/s500x750/eb7492b7324f0492b38890431bbeb80e6cf5f673.gifv') }
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .reolContain { width: 550px; background-color: var(--dark); margin:10px;  position: relative; border: solid 1px var(--main); outline: black 8px solid; font-size: 9px; }
 
