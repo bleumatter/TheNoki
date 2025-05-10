@@ -18,7 +18,7 @@
 .reolBodyouter { padding: 50px 15px 15px 15px; background:linear-gradient(0deg, var(--darker), var(--dark) ); background-color:var(--darkest); }
 
 .reolBody { background-color: #fafafa; padding: 20px 20px 20px 20px; margin-top: -48px; text-align: justify; color:#7a7a7a; text-align: justify;  font-family: verdana; text-align: justify; font-size: 12px; line-height: 14px; border-radius: 0px 0px 0px 0px;  }
-.reolBody b { font-weight: 600; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(90%) }
+.reolBody b { font-weight: 600; color: var(--main); -webkit-text-fill-color: revert; filter: brightness(60%) }
 .reolBody b:before { content: open-quote; }
 .reolBody b:after { content: close-quote; }
 
