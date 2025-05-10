@@ -38,6 +38,7 @@
 .realContainTag a { right: 10px; color: var(--palest); padding: 7px; font-size: 10px; text-transform: uppercase; -webkit-text-stroke: .4px var(--dark);  -webkit-text-fill-color: var(--palest); font-weight: 550; }
 
 .fit { position: absolute; top: 150px; right: 14px; color: var(--palest); padding: 10px; font-size: 9px; line-height: 9px; font-weight: 550; background-color: var(--main); text-align: justify; transform: rotate(-2deg); text-transform: uppercase; outline: solid var(--palest) 1px; -webkit-text-stroke: .4px var(--darker);  -webkit-text-fill-color: white;font-family: Verdana;  }
+.fit a { color: var(--palest); padding: 10px; font-size: 9px; line-height: 9px; font-weight: 550; }
 
 .date { padding: 7px; font-size: 11px; text-align: justify; float: left; margin: 6px; text-transform: uppercase; background-color: var(--darkest); -webkit-text-stroke: .4px var(--dark);  -webkit-text-fill-color: var(--palest); font-weight: 550; }
 
