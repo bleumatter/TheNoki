@@ -14,7 +14,7 @@
 .reolContain { width: 550px; background-color: var(--dark); margin:10px;  position: relative; border: solid 1px var(--main); outline: black 8px solid; font-size: 9px; }
 
 .reolHeader { display: flex; flex-flow: column nowrap; align-items:center; background-image: var( --a1); background-size: 550px;   width: 550px; height: 290px; background-repeat: no-repeat;  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)); backdrop-filter: grayscale(70%);-webkit-filter: grayscale(70%);-moz-filter: contrast(200%); }
-.reolHeader img:first-child { width: 550px; height: 290px; backdrop-filter: grayscale(70%);-webkit-filter: grayscale(70%);-moz-filter: contrast(200%);  }
+.reolHeader img:first-child { width: 550px; height: 290px; backdrop-filter: grayscale(70%);-webkit-filter: grayscale(70%);-moz-filter: contrast(200%); }
 .reolHeader:after { content:''; width: 550px; height: 290px; position: absolute; top: 0px; left: 0px; background-color: var(--main); opacity:.60;  linear-gradient(0deg, var(--main), transparent, transparent); }
 
 .reolBodyouter { padding: 50px 15px 15px 15px; background:linear-gradient(0deg, var(--darker), var(--dark) ); background-color:var(--darkest); }
@@ -44,10 +44,10 @@
 
 .date { padding: 7px; font-size: 11px; text-align: justify; float: left; margin: 6px; text-transform: uppercase; background-color: var(--darkest); -webkit-text-stroke: .4px var(--dark);  -webkit-text-fill-color: var(--palest); font-weight: 550; }
 
-.floatingicon { position: absolute; top: 13px; right: -10px; padding: 7px 7px 7px 7px; width: 110px; height: 110px;; transform: rotate(7deg); margin: 5px; border:  var(--darker) solid 5px; background-color: var(--dark);   outline-width: 1px; outline-offset: 0; outline-color: rgba( var(--darkest), 0.75); outline-style: solid; animation: animateOutline 2s ease infinite; }
+.floatingicon { position: absolute; top: 13px; right: -10px; padding: 7px 7px 7px 7px; width: 110px; height: 110px; transform: rotate(7deg); margin: 5px; border:  var(--darker) solid 5px; background-color: var(--dark);   outline-width: 1px; outline-offset: 0; outline-color: rgba( var(--darkest), 0.75); outline-style: solid; animation: animateOutline 2s ease infinite; }
 
 @keyframes animateOutline {
- 0% { outline-width: 1px; outline-offset: 0; outline-color: rgba( var(--darkest), 0); -webkit-outline--color }
- 10% { outline-color: rgba( var(--darkest), 0.75); -webkit-outline--color }
- 50% { outline-width: 7px; outline-offset: 4px; outline-color: rgba( var(--darkest), 0);-webkit-outline--color }
- 100% { outline-width: 7px; outline-offset: 4px;   outline-color: rgba(102, 102, 102, 0);-webkit-outline--color }}
+ 0% { outline-width: 1px; outline-offset: 0; outline-color: rgba( var(--darkest), 0); }
+ 10% { outline-color: rgba( var(--darkest), 0.75); }
+ 50% { outline-width: 7px; outline-offset: 4px; outline-color: rgba( var(--darkest), 0); }
+ 100% { outline-width: 7px; outline-offset: 4px;   outline-color: rgba(102, 102, 102, 0); }}
