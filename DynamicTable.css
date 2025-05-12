@@ -12,6 +12,16 @@
    --lightest: #fafafa;
    --a1: url('https://64.media.tumblr.com/cf57b436e3a4310f9994efdda02d15f4/5d9b1ee1aac0590f-4b/s500x750/eb7492b7324f0492b38890431bbeb80e6cf5f673.gifv') }
 
+.AaronObrien { 
+   --main: #B7542A; 
+   --palest: #CAD2C5;
+   --dark: #52796F; 
+   --darker: #354F52; 
+   --darkest: #2F3E46;
+   --lightest: #fafafa;
+   --a1: url('https://64.media.tumblr.com/70d6c82030b9b634f0847c68eddd26d7/d0610ba1f61645a4-d8/s640x960/02226f9e757f608aefd80e7d0f8decc01ca53caa.gif') }
+
+
 .NamicContain { width: 550px; background-color: var(--dark); margin:10px;  position: relative; border: solid 1px var(--main); outline: black 8px solid; font-size: 9px; }
 
 .NamicHeader { display: flex; flex-flow: column nowrap; align-items:center; background-image: var( --a1); background-size: 550px;   width: 550px; height: 290px; background-repeat: no-repeat;  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)); backdrop-filter: grayscale(100%);-webkit-filter: contrast(170%);-moz-filter: contrast(170%);  opacity:.4;}
