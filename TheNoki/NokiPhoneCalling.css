@@ -1,0 +1,72 @@
+
+.CharlesCox {
+--nokiaslAccent1: #52796F; 
+--nokiaslAccent2: #535353; 
+--nokiaslAccent3: #333; 
+--white: #fafafa; 
+--case: #41729f; }
+
+.nokiaslCase { width: 320px; height: 570px; padding: 5px 11px 9px 11px; background-color: var(--case); border-radius: 25px; border: 7px solid #3A3A3A; }
+
+.nokiaslSpeaker { background-color: rgba(255,255,255, .2); height:7px; width: 149px; margin: 10px 0px; border-radius: 5px; }
+.nokiaslCamera { background-color: rgba(255,255,255, .2); height: 7px; width: 7px; margin: 10px 0px; border-radius: 100%; float: right; margin-top: -17px; margin-right: 71px}
+
+.nokiaslPhone { width: 320px; height: 540px; overflow: hidden; background-color: #efefef; position: relative; border-radius: 15px 15px 15px 15px}
+
+.nokiaslLockscreen { background-image: var(--nokiaslPhoneBG); width: 320px; flex-shrink: 0; height: 570px; position: absolute; z-index:0; opacity:1; display: flex; align-items: center; justify-content: center; transition:.33s; }
+
+.nokiaslPhone:hover .nokiaslLockscreen { transition:.33s; transition-delay:.33s; }
+
+.nokiaslSecond { opacity:0; margin-top: 250px; transition:.33s; position:relative; }
+
+.nokiaslPhone:hover .nokiaslSecond { opacity: 1; transition: .6s; margin-top:0px; position:relative; transition-delay:.33s; }
+
+.nokiaslLockscreen h11 { margin: 0px; position: absolute; z-index: 1; -webkit-text-stroke: 1px black;  -webkit-text-fill-color: var(--white); font: 550 20px Verdana; color: var(--white); animation: pulse 2s ease-in-out infinite; }
+
+@keyframes pulse {
+0%, 100% { transform: scale(1); }
+50% { transform: scale(1.1); }
+}
+
+.nokiaslPhone:hover .nokiaslLockscreen span { animation:.25s nokiasl-in normal; opacity:0; }
+
+.nokiaslRibbon { height: 20px; width: 307px; position: absolute; z-index: 9; background-color: rgba(0,0,0,.2); color: #fafafa; display: flex; align-items: center; justify-content: space-between; padding:2px 10px; font:400 10px muli; border-radius: 15px 15px 0px 0px; color: var(--white)}
+
+.nokiaslRibbon I { color: var(--white); font-size: 16px; line-height: 15px; float: right; letter-spacing: 3px; }
+
+.nokiaslRibbon div { display: flex; align-items: center; justify-content: center; color: var(--white) }
+
+.nokiaslRibbon span { margin-right: 5px; height: 10px; width: 10px; line-height: 20px; display: flex; align-items: center; justify-content: center; font-size: 10px; speak: none; font-style: normal; font-weight: normal; text-transform: none; text-rendering: auto; line-height: 1; -webkit-font-smoothing: antialiased; font-variant: normal; color: var(--white) }
+
+.nokiaslContact { height: 90px; margin-top: 0px; padding: 35px 10px 0px 10px; background:linear-gradient(60deg, var(--nokiaslAccent1), var(--nokiaslAccent2) ); background-color:var(--nokiaslAccent2); font:800 12px/12px Muli; color:#fff!important; align-items: center; }
+
+.nokiaslContact a { font: 500 10px muli!important; color: var(--white)!important; text-transform: uppercase; }
+
+.nokiaslContact i { font-size: 28px; font-style: normal; margin-right: 0px; cursor: pointer; }
+
+.smallcontacticon { background-image: var(--nokiaslPhoneBG); height: 50px; width: 50px; border-radius: 100%;  outline-width: 1px; outline-offset: 0; outline-color: rgba( white, 0.75); outline-style: solid; animation: animateOutline 2s ease infinite; }
+
+@keyframes animateOutline {
+0% { outline-width: 1px; outline-offset: 0; outline-color: rgba( white, 0); }
+10% { outline-color: rgba( white, 0.75); }
+20% { outline-width: 1px; outline-offset: 1px; outline-color: rgba( white, 0); }
+30% { outline-width: 1px; outline-offset: 2px; outline-color: rgba( white, 0); }
+40% { outline-width: 1px; outline-offset: 3px; outline-color: rgba( white, 0); }
+50% { outline-width: 1px; outline-offset: 4px; outline-color: rgba( white, 0); }
+100% { outline-width: 1px; outline-offset: 4px; outline-color: rgba( white, 0); }}
+
+.nokiaslMessages { height: 440px; width: 320px; text-align: left; padding-top: 5px; padding-bottom: 5px; background-color: var(--nokiaslAccent2) }
+
+.nokiaslMessages::after { content:'.'; font-size: 0; line-height: 10px; background-color: #eee; color: #eee; }
+
+.nokiaslMessages h11 { margin-right: 9px; margin-top: 5px; max-width: 270px; color: #fafafa; padding: 5px; font: 12.5px roboto; text-align: justify; width: auto; border-radius: 15px; border: 6px solid var(--nokiaslAccent1); background-color: var(--nokiaslAccent1); float: right; line-height: 13px; }
+
+.nokiaslMessages::-webkit-scrollbar { width:7px;border:0px; -webkit-background-clip: revert!important; -webkit-text-fill-color: revert; }
+
+.nokiaslMessages::-webkit-scrollbar-track { background-color:#fcfcfc;border:0px; -webkit-background-clip: revert!important; -webkit-text-fill-color: revert; }
+
+.nokiaslMessages::-webkit-scrollbar-thumb { background-image: linear-gradient(to bottom, var(--nokiaslAccent1), var(--nokiaslAccent2) ); background-color: var(--nokiaslAccent1); -webkit-background-clip: revert!important; -webkit-text-fill-color: revert; border:0px; }
+
+.txtthreadbottom { width: 280px; padding: 4px 23px 13px 23px; height: 35px; background-color: var(--nokiaslAccent3); border-radius: 0px 0px 15px 15px; float: left; border-top: solid 5px var(--nokiaslAccent2) }
+
+.txtthreadbottom i { color: var(--white); font-size: 16px; margin-right: 38px; }
