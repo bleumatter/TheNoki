@@ -15,7 +15,7 @@
 .NamicContain { width: 550px; background-color: var(--dark); margin:10px;  position: relative; border: solid 1px var(--main); outline: black 8px solid; font-size: 9px; }
 
 .NamicHeader { display: flex; flex-flow: column nowrap; align-items:center; background-image: var( --a1); background-size: 550px;   width: 550px; height: 290px; background-repeat: no-repeat;  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)); backdrop-filter: grayscale(100%);-webkit-filter: contrast(170%);-moz-filter: contrast(170%);  opacity:.4;}
-.NamicHeader img:first-child {   background-size: 500px; width: 500px; height: 400px; width: 550px; height: 290px; backdrop-filter: grayscale(100%); -webkit-filter: contrast(170%);-moz-filter: contrast(170%); }
+.NamicHeader img:first-child {   background-size: 400px; width: 500px; height: 400px; width: 550px; height: 290px; backdrop-filter: grayscale(100%); -webkit-filter: contrast(170%);-moz-filter: contrast(170%); }
 .NamicHeader:after { content:''; width: 550px; height: 290px; position: absolute; top: 0px; left: 0px; background-color: var(----palest); opacity: 1;  linear-gradient(0deg, var(----palest), transparent, transparent); }
 
 .NamicBodyouter { padding: 50px 15px 15px 15px; background: linear-gradient(0deg, var(--darker), var(--dark) ); background-color:var(--darkest); }
