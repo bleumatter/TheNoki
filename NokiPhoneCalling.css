@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+}
+
 .CharlesCox { 
 --nokiasl1Accent1: #52796F; 
 --nokiasl1Accent2: #535353; 
@@ -22,7 +27,7 @@
 
 .nokiasl1Phone:hover .nokiasl1Second { opacity: 1; transition: .6s; margin-top:0px; position:relative; transition-delay:.33s; }
 
-.nokiasl1Lockscreen h11 { margin: 0px; position: absolute; z-index: 1; -webkit-text-stroke: 1px black;  -webkit-text-fill-color: var(--white); font: 550 20px Verdana; color: var(--white); animation: pulse 2s ease-in-out infinite; }
+.nokiasl1Lockscreen h11 { margin: 0px; position: absolute; z-index: 1; -webkit-text-stroke: 1px black;  -webkit-text-fill-color: var(--white); font: 550 20px Quicksand; color: var(--white); animation: pulse 2s ease-in-out infinite; }
 
 @keyframes pulse {
 0%, 100% { transform: scale(1); }
@@ -39,9 +44,9 @@
 
 .nokiasl1Ribbon span { margin-right: 5px; height: 10px; width: 10px; line-height: 20px; display: flex; align-items: center; justify-content: center; font-size: 10px; speak: none; font-style: normal; font-weight: normal; text-transform: none; text-rendering: auto; line-height: 1; -webkit-font-smoothing: antialiased; font-variant: normal; color: var(--white) }
 
-.nokiasl1Contact { height: 90px; margin-top: 0px; padding: 35px 10px 0px 10px; background:linear-gradient(60deg, var(--nokiasl1Accent1), var(--nokiasl1Accent2) ); background-color:var(--nokiasl1Accent2); font:800 12px/12px Muli; color:#fff!important; align-items: center; }
+.nokiasl1Contact { height: 90px; margin-top: 0px; padding: 35px 10px 0px 10px; background:linear-gradient(60deg, var(--nokiasl1Accent1), var(--nokiasl1Accent2) ); background-color:var(--nokiasl1Accent2); font:800 12px/12px Quicksand; color:#fff!important; align-items: center; }
 
-.nokiasl1Contact a { font: 500 10px muli!important; color: var(--white)!important; text-transform: uppercase; }
+.nokiasl1Contact a { font: 500 10px Quicksand!important; color: var(--white)!important; text-transform: uppercase; }
 
 .nokiasl1Contact i { font-size: 28px; font-style: normal; margin-right: 0px; cursor: pointer; }
 
@@ -60,7 +65,7 @@
 
 .nokiasl1Messages::after { content:'.'; font-size: 0; line-height: 10px; background-color: #eee; color: #eee; }
 
-.nokiasl1Messages h11 { margin-right: 9px; margin-top: 5px; max-width: 270px; color: #fafafa; padding: 5px; font: 12.5px roboto; text-align: justify; width: auto; border-radius: 15px; border: 6px solid var(--nokiasl1Accent1); background-color: var(--nokiasl1Accent1); float: right; line-height: 13px; }
+.nokiasl1Messages h11 { margin-right: 9px; margin-top: 5px; max-width: 270px; color: #fafafa; padding: 5px; font: 12.5px Quicksand; text-align: justify; width: auto; border-radius: 15px; border: 6px solid var(--nokiasl1Accent1); background-color: var(--nokiasl1Accent1); float: right; line-height: 13px; }
 
 .nokiasl1Messages::-webkit-scrollbar { width:7px;border:0px; -webkit-background-clip: revert!important; -webkit-text-fill-color: revert; }
 
