@@ -3,16 +3,20 @@
 :root {
 }
 
-.CharlesCox { 
---nokiaslAccent1: #52796F; 
---nokiaslAccent2: #535353; 
+.darkmode {
+--nokiaslAccent2: #555; 
 --nokiaslAccent3: #333; 
---white: #fafafa; 
---case: #41729f;
---nokiaslPhoneBG:url(https://i.pinimg.com/736x/c3/c0/41/c3c0410cc3abdd3aa96b0c7a47908bd3.jpg); background-repeat: no-repeat; background-size: 320px 520px; }
+--white: #fff; 
+--text: #fafafa; }
+
+.lightmode {
+--nokiaslAccent2: #F9F9F9;
+--nokiaslAccent3: #EEEEEE; 
+--white: #fff; 
+--text: #111; }
 
 
-.nokiaslCase { width: 320px; height: 570px; padding: 5px 11px 9px 11px; background-color: var(--case); border-radius: 25px; border: 7px solid #3A3A3A; }
+.nokiaslCase { width: 320px; height: 570px; padding: 5px 11px 9px 11px; background-color: var(--phonecolor); border-radius: 25px; border: 7px solid var(--case); }
 
 .nokiaslSpeaker { background-color: rgba(255,255,255, .2); height:7px; width: 149px; margin: 10px 0px; border-radius: 5px; }
 .nokiaslCamera { background-color: rgba(255,255,255, .2); height: 7px; width: 7px; margin: 10px 0px; border-radius: 100%; float: right; margin-top: -17px; margin-right: 71px; }
@@ -51,11 +55,11 @@
 
 .nokiaslMessages { height: 450px; width: 320px; text-align: left; background-color: var(--nokiaslAccent3); padding-top: 10px; }
 
-.nokiaslMessages::after { content:'.'; font-size: 0; line-height: 10px; background-color: #eee; color: #eee; }
+.nokiaslMessages::after { content:'.'; font-size: 0; line-height: 10px; background-color: var(--nokiaslAccent3); color: var(--text); }
 
-.nokiaslMessages h11 { margin-right: 7px; margin-top: 5px; max-width: 180px; color: #fafafa; padding: 5px; font: 12.5px Quicksand; text-align: justify; width: auto; border-radius: 15px; border: 6px solid var(--nokiaslAccent1); background-color: var(--nokiaslAccent1); float: right; line-height: 13px; }
+.nokiaslMessages h11 { margin-right: 7px; margin-top: 5px; max-width: 180px; color: var(--white); padding: 5px; font: 12.5px Quicksand; text-align: justify; width: auto; border-radius: 15px; border: 6px solid var(--nokiaslAccent1); background-color: var(--nokiaslAccent1); float: right; line-height: 13px; }
 
-.nokiaslMessages h22 { margin-left: 10px; margin-top: 5px; max-width: 180px; color: #fafafa; padding: 5px; font: 12.5px Quicksand; text-align: justify; width: auto; border-radius: 15px; border: 6px solid var(--nokiaslAccent2); background-color: var(--nokiaslAccent2); filter: brightness(85%); float: left; line-height: 13px; }
+.nokiaslMessages h22 { margin-left: 10px; margin-top: 5px; max-width: 180px; color: var(--text); padding: 5px; font: 12.5px Quicksand; text-align: justify; width: auto; border-radius: 15px; border: 6px solid var(--nokiaslAccent2); background-color: var(--nokiaslAccent2); filter: brightness(85%); float: left; line-height: 13px; }
 
 .nokiaslMessages::-webkit-scrollbar { width:7px;border:0px; -webkit-background-clip: revert!important; -webkit-text-fill-color: revert; }
 
@@ -63,12 +67,12 @@
 
 .nokiaslMessages::-webkit-scrollbar-thumb { background-image: linear-gradient(to bottom, var(--nokiaslAccent1), var(--nokiaslAccent2) ); background-color: var(--nokiaslAccent1); -webkit-background-clip: revert!important; -webkit-text-fill-color: revert; border:0px; }
 
-.txtthreadbottom { width: 280px; padding: 8px 23px 23px 23px; height: 39px; background-color: var(--nokiaslAccent3); border-radius: 0px 0px 15px 15px; float: left; }
+.txtthreadbottom { width: 280px; padding: 8px 23px 23px 23px; height: 39px; background-color: var(--nokiaslAccent2); border-radius: 0px 0px 15px 15px; float: left; }
 
-.txtthreadbottom i { color: var(--white); font-size: 16px; margin-right: 38px; }
+.txtthreadbottom i { color: var(--text); font-size: 16px; margin-right: 38px; }
 
-.txtthreadreply { width: 324px; padding: 5px 5px 5px 5px; background-color: var(--nokiaslAccent3); float :left; color: var(--white);}
+.txtthreadreply { width: 324px; padding: 5px 5px 5px 5px; background-color: var(--nokiaslAccent2); float :left; color: var(--text); }
 
-.txtthreadreplytext { font-family: Quicksand; font-size: 12.5px; color: var(--mid2); text-align: left; line-height: 11px; float:left; background-color: var(--nokiaslAccent2); width: 300px; padding: 6px 8px 6px 0px; border-radius: 15px; }
+.txtthreadreplytext { font-family: Quicksand; font-size: 12.5px; color: var(--text); text-align: left; line-height: 11px; float:left; background-color: var(--nokiaslAccent3); width: 300px; padding: 6px 8px 6px 0px; border-radius: 15px; }
 
-.txtthreadreplytext i { color: var(--white); font-size: 14px; margin: 0px 12px 0px 10px; float: left; }
+.txtthreadreplytext i { color: var(--text); font-size: 14px; margin: 0px 12px 0px 10px; float: left; }
