@@ -1,7 +1,8 @@
-    //Select button by id
-    const MyButton = document.getElementById('NokiButton');
-    //Add on click listener for button
-    MyButton.addEventListener('click', function() {
-        //Select (h1) heading by id, and then change it's value to (bananas)
-        document.getElementById('MyHeading').innerText = "bananas"
-    })
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
