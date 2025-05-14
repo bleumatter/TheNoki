@@ -14,29 +14,10 @@ for (i = 0; i < coll.length; i++) {
 }
 
 /*WORD COUNTER JS*\
-function countWord() {
 
-            // Get the input text value
-            let words = document
-                .getElementById("word").value;
-
-            // Initialize the word counter
-            let count = 0;
-
-            // Split the words on each
-            // space character 
-            let split = words.split(' ');
-
-            // Loop through the words and 
-            // increase the counter when 
-            // each split word is not empty
-            for (let i = 0; i < split.length; i++) {
-                if (split[i] != "") {
-                    count += 1;
-                }
-            }
-
-            // Display it as output
-            document.getElementById("show")
-                .innerHTML = count;
-        }
+var profile_values = document.getElementsByClassName('profile-value');
+var total_words = 0;
+for (i = 0; i < profile_values.length; i++) {
+  total_words += profile_values[i].innerHTML.split(' ').length;
+}
+document.getElementById('word-count').innerHTML = total_words;
