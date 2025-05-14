@@ -13,7 +13,7 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-/*WORD COUNTER JS*\
+//WORD COUNTER JS//
 
 var profile_values = document.getElementsByClassName('profile-value');
 var total_words = 0;
