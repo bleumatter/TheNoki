@@ -1,14 +1,7 @@
-var coll = document.getElementsByClassName("NokiCodes");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
+    //Select button by id
+    const MyButton = document.getElementById('NokiButton');
+    //Add on click listener for button
+    MyButton.addEventListener('click', function() {
+        //Select (h1) heading by id, and then change it's value to (bananas)
+        document.getElementById('MyHeading').innerText = "bananas"
+    })
