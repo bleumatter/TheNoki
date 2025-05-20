@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
 
 :root {
-  --accent: red;
-  --accent2: green;
-  --black: black;
-  --light: #f0f0f0;
-  --gradient: linear-gradient(55deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
 }
 
 .MushContain { 
