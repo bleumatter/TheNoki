@@ -17,7 +17,7 @@ for (i = 0; i < coll.length; i++) {
 
 
 
-var profile_values = document.getElementsByClassName('MushPostContain');
+var profile_values = document.getElementsByClassName('profile-value');
 var total_words = 0;
 for (i = 0; i < profile_values.length; i++) {
   total_words += profile_values[i].innerHTML.split(' ').length;
