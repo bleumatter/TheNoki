@@ -16,25 +16,29 @@
 }
 
 .MushTitleText {
-   -webkit-text-fill-color: var(--light); font-family: Quicksand; font-size: 32px; font-weight: 100;   -webkit-text-stroke: .80px white; text-align: right; text-shadow: 2px 2px 2px rgba(236, 236, 236, .6); width: 388px; margin-left: 117px; margin-top: -20px; line-height: 30px; background-color: var(--black); padding: 40px 15px 20px 20px; height: 70px; margin-bottom: -10px; text-transform: uppercase
+   -webkit-text-fill-color: var(--light); font-family: Quicksand; font-size: 34pt; font-weight: 100;   -webkit-text-stroke: .80px white; text-align: right; text-shadow: 2px 2px 2px rgba(236, 236, 236, .6); width: 388px; margin-left: 117px; margin-top: -20px; line-height: 37px; background-color: var(--black); padding: 40px 15px 20px 20px; height: 70px; margin-bottom: -10px; text-transform: uppercase;
 }
 
 .MushTitleTextMini {
-  font-size: 9px; text-shadow: 0px 0px 0px rgba(236, 236, 236, 1); font-weight: 100; font-family: Quicksand;   -webkit-text-stroke: 0px; text-transform: uppercase; letter-spacing: .8px; margin-top: -6px; 
+  font-size: 9px; text-shadow: 0px 0px 0px rgba(236, 236, 236, 1); font-weight: 100; font-family: Quicksand;   -webkit-text-stroke: 0px; text-transform: uppercase; letter-spacing: .8px; margin-top: -12px; letter-spacing: 3px;
 }
 
-.MushSmallBanner { background-color: var(--black); color: white; width: 558px; margin-left: -30px; margin-top: 0px; padding: 6px; font-size: 12px; font-family: Quicksand; text-transform: lowercase;}
+.MushSmallBanner { background-color: var(--black); color: white; width: 557px; margin-left: -30px; margin-top: -1px; padding: 7px; font-size: 11px; line-height: 11px; font-family: Quicksand; text-transform: lowercase; letter-spacing: 4px; word-spacing: 2px;
+}
 
 .MushContainTags {
-  display: flex; flex-wrap: wrap; margin: 5px -220px 0px 0px; max-width: 570px; align-items: center; justify-content: right;
-}
+  display: flex; flex-wrap: wrap; margin: 5px -220px 0px 0px; max-width: 570px; align-items: center; justify-content: right; }
 
 .MushContainTags div {
-  background: var(--black); opacity: .85; margin: 2px 2px 1.5px 4px; padding: 5px 9px 7px 9px; border-radius: 5px; text-transform: uppercase; font-family: arial; color: var(--light); text-decoration: none; text-align: left; box-shadow: 1px 1px 3px .5px rgba(108, 122, 137, .5); font-size: 9.5px; max-height: 8px;
+  background: var(--black); opacity: .85; margin: 2px 2px 1.5px 4px; padding: 7px 7px 0px 5px; border-radius: 5px; text-transform: uppercase; font-family: arial; color: var(--light); text-decoration: none; text-align: left; box-shadow: 1px 1px 3px .5px rgba(108, 122, 137, .5); font-size: 9px;  line-height: 11px; height: 15px;
 }
 
 .MushContainTags a {
   text-decoration: none; color: var(--light);
+}
+
+.MushContainTags i {
+  text-decoration: none; color: var(--light); margin-right: 8px; margin-top: -3px; font-size: 14px; line-height: 12px; float: left;
 }
 
 .MushPostContainOuter { 
@@ -46,10 +50,10 @@
 }
 
 .MushPostContain i {
-  font-weight: 100; font-family: georgia;
+  font-weight: 100; font-family: georgia; color: var(--black); font-size: 13px; line-height: 12px;
 }
 .MushPostContain b {
-  color: var(--accent); font-weight: 700; 
+  color: var(--accent); -webkit-text-fill-color: revert; font-weight: 700; 
 }
 .MushPostContain b:before { 
   content: open-quote;
@@ -59,7 +63,7 @@
 }
 
 .MushPostContain q {
-  quotes: "‘" "’"; font-style: italic; color: var(--accent); -webkit-text-fill-color: revert; filter: brightness(100%); 
+  quotes: "'" "'"; font-style: italic; color: var(--accent); -webkit-text-fill-color: revert; filter: brightness(100%); 
 }
 
 .MushPostContain q:before { 
@@ -79,5 +83,5 @@
   padding-inline: calc(var(--s) + .3em);
   clip-path: polygon(0 0,calc(100% - var(--s)) 0,100% 50%,calc(100% - var(--s)) 100%,0 100%,var(--s) 50%);
   background: var(--accent); opacity: 1;
-  width: 368px; padding: 1px 245px 5px 10px; margin: 10px 0px 0px -57px; position: relative; top: 0px; 
+  width: 367px; padding: 1px 245px 5px 10px; margin: 10px 0px 0px -57px; position: relative; top: 0px; 
 }
