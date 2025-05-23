@@ -7,6 +7,12 @@
 --case: #333333;
 --nokiaslPhoneBG:url(https://i.pinimg.com/736x/c3/c0/41/c3c0410cc3abdd3aa96b0c7a47908bd3.jpg); background-repeat: no-repeat; background-size: 320px 520px; }
 
+.AaronObrien {
+--nokiaslAccent1: #B2C190;
+--phonecolor: #E4AC4C;
+--case: #9AAC8E;
+--nokiaslPhoneBG:url(https://i.pinimg.com/1200x/96/7c/56/967c56433bfa20d54aa143992f38f0af.jpg); background-repeat: no-repeat; background-size: 320px 520px; }
+
 .darkmode {
 --nokiaslAccent2: #555; 
 --nokiaslAccent3: #333; 
