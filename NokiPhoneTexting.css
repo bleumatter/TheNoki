@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .CharlesCox {
---nokiaslAccent1: #52796F;
---phonecolor: #41729f;
---case: #333333;
---nokiaslPhoneBG:url(https://i.pinimg.com/736x/c3/c0/41/c3c0410cc3abdd3aa96b0c7a47908bd3.jpg); background-repeat: no-repeat; background-size: 320px 520px; }
+--nokiaslAccent1: #DB8C43;
+--phonecolor: #333;
+--case: #9CC0E2;
+--nokiaslPhoneBG:url(https://i.postimg.cc/ZT3HhCp4/image-2025-05-23-203145237.png); background-repeat: no-repeat; background-size: 320px 520px; }
 
 .darkmode {
 --nokiaslAccent2: #555; 
@@ -28,8 +28,8 @@
   width: 320px; height: 570px; overflow: hidden;  position: relative; border-radius: 14px 14px 14px 14px; 
 }
 
-.nokiaslLockscreen { 
-  width: 320px; flex-shrink: 0; height: 570px; position: absolute; z-index:0; opacity:1; background-image:url(http://placehold.it/300x500/333/eee.png); background-image: var(--nokiaslPhoneBG); display: flex; align-items: center; justify-content: center; transition:.23s; 
+.nokiaslLockscreen {
+  flex-shrink: 0; background-size: 320px; width: 320px; height: 570px; position: absolute; z-index:0; opacity: .9; background-image:url(http://placehold.it/300x500/333/eee.png); background-image: var(--nokiaslPhoneBG); display: flex; align-items: center; justify-content: center; transition: .23s; 
 }
 
 .nokiaslPhone:hover .nokiaslLockscreen { 
@@ -69,15 +69,15 @@
 }
 
 .nokiaslContact { 
-  height: 87px; margin-top: 0px; padding: 24px 10px 0px 10px; background: linear-gradient(60deg, var(--nokiaslAccent1), var(--nokiaslAccent2)); background-color: var(--nokiaslAccent2); font: 800 18px/18px Quicksand; color: #fff!important; display: block; margin-left: auto; margin-right: auto; 
+  height: 87px; margin-top: 0px; padding: 24px 10px 0px 10px; background-color: var(--nokiaslAccent1); font: 800 18px/18px Quicksand; color: #fff!important; display: block; margin-left: auto; margin-right: auto; 
 }
 
 .nokiaslContact div { 
-  font:300 10px Quicksand; margin-top: 20px; color: var(--white); align-items: center;  
+  font: 500 12px Quicksand; margin-top: 20px; color: var(--white); align-items: center;  
 }
 
 .nokiaslContact div a { 
-  font: 500 15px Quicksand!important; color: var(--white)!important; text-transform: uppercase; 
+  font: 500 12px Quicksand!important; color: var(--white)!important; text-transform: uppercase; text-decoration: none; 
 }
 
 .nokiaslContact i { 
@@ -137,7 +137,7 @@
 }
 
 .nokiasl1Case { 
-  width: 320px; height: 570px; padding: 4px 4px 4px 4px; background-color: var(--case); border-radius: 25px; border: 7px solid #3A3A3A; 
+  width: 320px; height: 570px; padding: 4px 4px 4px 4px; background-color: var(--phonecolor); border-radius: 25px; border: 7px solid var(--case); 
 }
 
 .nokiasl1Speaker { 
