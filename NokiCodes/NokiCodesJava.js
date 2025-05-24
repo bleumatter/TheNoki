@@ -26,7 +26,8 @@ document.getElementById('word-count').innerHTML = total_words;
 
 
 
-\\CLICK BUTTON\\
+
+
 document.querySelectorAll('.accordion button').forEach(button => {
     button.addEventListener('click', function(e) {
         let expanded = this.getAttribute('aria-expanded') === 'true';
