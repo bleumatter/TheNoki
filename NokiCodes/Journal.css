@@ -142,6 +142,10 @@ body {
 	background: var(--accent);
 }
 
+.accordion subinfo {
+	border: 1px solid var(--accent);
+}
+
 .icon {
 	margin-right: 10px;
 	font-weight: bold;
