@@ -127,35 +127,36 @@ body {
 }
 
 ..accordion ul.unset li:before { 
-  color: var(--accent); 
+	color: var(--accent); 
 }
 
 .accordion li {
-  margin-bottom: 20px
+	margin-bottom: 20px
 }
 
 .accordion hr {	
-  margin: 14px 0;
-  border: 0px;
-  height: 1px;
-  background: var(--accent);
+	margin: 14px 0;
+	border: 0px;
+	height: 1px;
+	background: var(--accent);
 }
 
 .icon {
-  margin-right: 10px;
-  font-weight: bold;
+	margin-right: 10px;
+	font-weight: bold;
 }
 
 .accordion .icon {
-  margin-right: 10px;
+	margin-right: 10px;
 }
 
 .accordion-wrapper {
-  Padding: 10px; width: 80%
+	Padding: 10px; width: 80%
 }
 
 .accordion-wrapper h11 {
-  text-align: right; 
+	text-align: right; 
+	margin-right: -30px;
 }
 
 .accordion-wrapper h11 a {
