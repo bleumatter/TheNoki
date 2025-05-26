@@ -275,12 +275,12 @@ body {
   font-size: 20px;
 }
 
-.yes {
+.yes i {
   background-color: #D15776;
   color: #813246;
 }
 
-.no {
+.no i {
   background-color: #BABABA;
   color: #5A5A5A;
 }
