@@ -330,38 +330,38 @@ body {
   color: #000000;
 }
 
-.annoyance, .not_possible { 
+.annoyance, .not_possible, o { 
   color: #4C4C4C;
 }
 
-.stranger, .indifferent {
+.stranger, .indifferent, o {
   color: #939393;
 }
 
-.exchanged_names, .noticed {
+.exchanged_names, .noticed, o {
   color: #BA5FE3;
  }
 
-.acquaintance, .attracted {
+.acquaintance, .attracted, o {
   color: #5FB8E3;
 }
 
-.friend, .crushing {
+.friend, .crushing, o {
   color: #76BB50;
 }
 
-.good_friend, .actively_seeking {
+.good_friend, .actively_seeking, o {
   color: #E5D742;
 }
 
-.better_friend, .in_a_relationship {
+.better_friend, .in_a_relationship, o {
   color: #E68F42;
 }
 
-.best_friend, .in_love {
+.best_friend, .in_love, o {
   color: #F963B1;
 }
 
-.like_family, .long_term_commitment {
+.like_family, .long_term_commitment, o {
   color: #ff0000;
 } 
