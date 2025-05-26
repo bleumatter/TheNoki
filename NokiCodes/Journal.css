@@ -259,7 +259,7 @@ body {
   line-height: 16px;
 }
 
-.box div o {
+.box div i {
   margin-right: 20px;
   font-size: 20px;
   line-height: 10px;
@@ -306,7 +306,7 @@ body {
   margin: 15px;
 }
 
-.bottomstuff o {
+.bottomstuff i {
   font-size: 38pt;
   color: var(--accent);
   font-weight: 700;
