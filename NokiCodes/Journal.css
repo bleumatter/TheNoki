@@ -156,12 +156,11 @@ body {
 }
 
 .accordion-wrapper {
-	Padding: 10px; width: 80%
+	width: 80%
 }
 
 .accordion-wrapper h11 {
 	text-align: right; 
-	margin-right: -30px;
 }
 
 .accordion-wrapper h11 a {
@@ -175,7 +174,8 @@ body {
 	-webkit-text-fill-color: var(--accent);
 	-webkit-text-stroke: 1px white;
 	letter-spacing: -1.5px;
-	text-transform: lowercase
+	text-transform: lowercase;
+	margin-right: -30px;
 }
 
 .accordion-wrapper h11 a {
