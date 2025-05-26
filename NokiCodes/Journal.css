@@ -266,7 +266,6 @@ body {
 }
 
 .smash {
-  padding: 6px 3px 3px 3px;
   border-radius: 100%;
   float: left;
   width: 32px;
@@ -278,11 +277,21 @@ body {
 .yes i {
   background-color: #D15776;
   color: #813246;
+  width: 32px;
+  height: 27px;
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 6px 3px 3px 3px;
 }
 
 .no i {
   background-color: #BABABA;
   color: #5A5A5A;
+  width: 32px;
+  height: 27px;
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 6px 3px 3px 3px;
 }
 
 .bottomstuff {
