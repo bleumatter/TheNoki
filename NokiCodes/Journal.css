@@ -266,12 +266,8 @@ body {
 }
 
 .smash {
-  border-radius: 100%;
   float: left;
-  width: 32px;
-  height: 27px;
   margin-left: 10px;
-  font-size: 20px;
 }
 
 .yes i {
@@ -282,6 +278,7 @@ body {
   margin-left: 10px;
   font-size: 20px;
   padding: 6px 3px 3px 3px;
+  border-radius: 100%;
 }
 
 .no i {
@@ -292,6 +289,7 @@ body {
   margin-left: 10px;
   font-size: 20px;
   padding: 6px 3px 3px 3px;
+  border-radius: 100%;
 }
 
 .bottomstuff {
