@@ -1,4 +1,4 @@
-var coll = document.getElementsByClassName("blujournal_Button");
+var coll = document.getElementsByClassName("Noki_Button");
 var i;
 
 for (i = 0; i < coll.length; i++) {
