@@ -14,8 +14,8 @@ body {
 
 .accordion {
 	max-width: 80%;
-	margin: 0 auto; 
-	padding: 5px;
+	margin: 0px; 
+	padding: 0px;
 }
 
 .accordion button {
@@ -188,7 +188,8 @@ body {
   font-family: verdana;
   -webkit-text-fill-color: var(--accent);
   letter-spacing: -1.5px;
-  text-transform: lowercase
+  text-transform: lowercase;
+  margin-right: -30px;
 }
 
 .accordion h22 {
