@@ -1,0 +1,252 @@
+body { background-color:var(--bg4);
+  
+    --bg0: #eee;
+    --bg1: #f0f0f0;
+    --bg2: #f3f3f3;
+    --bg3: #f8f8f8;
+    --bg4: #fafafa;
+    --bg5: 255,255,255;
+    --darken: 0, 0, 0;
+    --border: #ddd;
+    --txt1: #666;
+    --txt2: #888;
+    --font1: 'poppins', sans-serif;
+    --font2: 'Lobster', serif;
+    --accent1: #B76E79;
+    --bgrgb: 248,248,248; 
+}
+.darkmode .Mulli { 
+  --bgrgb: 32,32,32; 
+}
+.Mulli { 
+  max-width: 450px;
+  margin: 35px auto;
+  background-color: #444;
+  color: var(--txt1);
+  font: 12.5px Inter, sans-serif;
+  letter-spacing: .25px;
+  position: relative; 
+  padding: 15px;  
+  border-radius: 18px;
+}
+.Mulli-top { 
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font: 40pt var(--font2);
+  color: var(--accent1);
+  line-height: 30px;
+  letter-spacing: 0px;
+  background-color: var(--bg2);
+  text-transform: uppercase;
+  border: solid 1px var(--border);
+  border-bottom: 0px;
+  position: relative;
+  overflow: hidden; 
+  border-radius: 15px 15px 0px 0px;
+  text-transform: lowercase;
+}
+.Mulli-top h1 { 
+  margin: 0px 0px 10px 0px;
+  font: 10px var(--font1);
+  line-height: 10px;
+  letter-spacing: 1.5px;
+  padding: 9px;
+  border: solid 1px var(--border);
+  background-color: ar(--bg3);
+  color: var(--txt1); 
+  border-radius: 10px;
+  text-transform: lowercase;
+}
+.Mulli-top i { 
+  display: block;
+  background-color: var(--bg3);
+  height: 75px;
+  width: 75px;
+  transform: rotate(45deg);
+  position: absolute;
+  top :0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent1);
+  color: var(--bg2);
+  display: none; 
+}
+.Mulli-top i::before { 
+  display: block;
+  transform: rotate(-45deg);
+  font-size: 35px; 
+}
+.Mulli-bot { 
+  border: solid 1px var(--border);
+  border-top: none;
+  background-color: var(--bg2);
+  margin-top: -3px;
+  position: relative;
+  z-index: 1;
+  padding: 25px;
+  display: flex;
+  justify-content: flex-end; 
+  border-radius: 0px 0px 10px 10px;
+}
+.Mulli-bot div { 
+  font: 400 10px var(--font1);
+  line-height: 10px;
+  letter-spacing: 1.7px;
+  padding: 17px;
+  border: solid 8px var(--bg2);
+  background-color: var(--accent1);
+  color: var(--txt1);
+  text-transform: uppercase;
+  margin-top: -50px;
+  color: var(--bg2);
+  position: relative;   
+  border-radius: 10px;
+}
+.Mulli-bot div::before { 
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: linear-gradient(35deg,var(--bg3),transparent);
+  opacity: .6; 
+}
+.Mulli img { 
+  filter: grayscale(100%) contrast(65%);
+  transition: 1s; 
+}
+.Mulli:hover img { 
+  filter: grayscale(0%) contrast(65%); 
+}
+
+
+
+.Mulli-img { 
+  mix-blend-mode: lighten;
+  background-color: var(--bg2); 
+}
+.Mulli-img img { 
+  width: 100%; 
+}
+
+
+
+.Mulli-imgs-column { 
+  mix-blend-mode: lighten;
+  background-color: var(--bg2);
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 3px;
+  column-gap: 5px;
+  border-left: solid 1px var(--border);
+  border-right: solid 1px var(--border); 
+}
+.Mulli-imgs-column img { 
+  width: calc(100% + 2px);
+  margin: 0px -1px; 
+}
+
+
+
+.Mulli-imgs-row { 
+  mix-blend-mode: lighten;
+  background-color: var(--bg2);
+  display: grid;
+  gap: 3px;
+  border-left: solid 1px var(--border);
+  border-right: solid 1px var(--border); 
+}
+.Mulli-imgs-row img { 
+  width: calc(100% + 2px);
+  margin: 0px -1px; 
+}
+
+
+
+.Mulli-mood { 
+  mix-blend-mode: lighten;
+  background-color: var(--accent1);
+  position: relative;
+  padding-top: 100%;
+  padding-bottom: 20%;
+  height: 0px; 
+}
+
+.Mulli-mood::before { 
+  content:'';
+  display: block; 
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: linear-gradient(35deg,var(--bg3),transparent);
+  opacity:.35; 
+}
+
+.Mulli-mood div { 
+  display: grid; 
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 25px;
+  background-color: var(--bg2);
+  max-width: 370px; 
+  margin: calc(-75% - 61px) auto; 
+  border-radius: 10px;
+}
+
+.Mulli-mood img { 
+  width: 118px; 
+  height: 118px;
+  border-radius: 10px;
+}
+.Mulli-mood + .Mulli-bot div { 
+  background-color: #444; 
+}
+.Mulli-mood + .Mulli-bot div::before { 
+  display: none; 
+}
+
+
+
+.Mulli-quote { 
+  background-color: var(--accent1);
+  background-image: url('https://images.unsplash.com/photo-1746908592757-2c1d682b71db?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  margin-bottom: 3px;
+  position: relative; 
+  color:var(--bg2);
+  padding: 50px 50px 60px 53px;
+  font: 200 20px Inter, sans-serif;
+  text-align: left; 
+}
+.Mulli-quote div { 
+  background-color: rgba(290, 290, 290, 0.25);
+  padding: 20px;  border-radius: 10px;
+}
+.Mulli-quote::before { 
+  content:'';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0px; 
+  left: 0px; 
+  right: 0px;
+  bottom: 0px;
+  background: linear-gradient(35deg,var(--bg3),transparent);
+  opacity:.35; 
+}
+.Mulli-quote + .Mulli-bot div { 
+  background-color:#444; 
+}
+.Mulli-quote + .Mulli-bot div::before {
+  display:none; 
+}
+
