@@ -1,4 +1,4 @@
-body { background-color:var(--bg4);
+body { background-image: var(--bgimg2); background-repeat: no-repeat; background-size: 950px; background-attachment: fixed;
   
     --bg0: #eee;
     --bg1: #f0f0f0;
@@ -12,14 +12,19 @@ body { background-color:var(--bg4);
     --txt2: #888;
     --font1: 'poppins', sans-serif;
     --font2: 'Lobster', serif;
-    --accent1: #B76E79;
     --bgrgb: 248,248,248; 
 }
 .darkmode .Mulli { 
   --bgrgb: 32,32,32; 
 }
+
+.tiktok-embed {
+  width: 200px;
+  background-color: transparent;
+}
+
 .Mulli { 
-  max-width: 450px;
+  max-width: 550px;
   margin: 35px auto;
   background-color: #444;
   color: var(--txt1);
@@ -40,12 +45,17 @@ body { background-color:var(--bg4);
   letter-spacing: 0px;
   background-color: var(--bg2);
   text-transform: uppercase;
-  border: solid 1px var(--border);
-  border-bottom: 0px;
+  border-bottom: 8px solid var(--bg1);
   position: relative;
   overflow: hidden; 
   border-radius: 15px 15px 0px 0px;
   text-transform: lowercase;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--bg4);
+  text-shadow: var(--accent2) .5px 0 5px;
+  background-image: var(--bgimg);
+  background-size: 600px;
+  
 }
 .Mulli-top h1 { 
   margin: 0px 0px 10px 0px;
@@ -54,10 +64,13 @@ body { background-color:var(--bg4);
   letter-spacing: 1.5px;
   padding: 9px;
   border: solid 1px var(--border);
-  background-color: ar(--bg3);
+  background-color: var(--bg1);
   color: var(--txt1); 
   border-radius: 10px;
   text-transform: lowercase;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: black;
+  text-shadow: transparent 0px 0 0px;
 }
 .Mulli-top i { 
   display: block;
@@ -94,17 +107,20 @@ body { background-color:var(--bg4);
 }
 .Mulli-bot div { 
   font: 400 10px var(--font1);
-  line-height: 10px;
-  letter-spacing: 1.7px;
+  text-transform: uppercase;
+  line-height: 9px;
   padding: 17px;
+  letter-spacing: 1.3px;
   border: solid 8px var(--bg2);
   background-color: var(--accent1);
   color: var(--txt1);
-  text-transform: uppercase;
   margin-top: -50px;
-  color: var(--bg2);
-  position: relative;   
+  color: var(--bg1);  
   border-radius: 10px;
+  position: relative; 
+  border-radius: 20px;
+  background-image: var(--bgimg);
+  background-size: 200px;
 }
 .Mulli-bot div::before { 
   content: '';
@@ -115,8 +131,9 @@ body { background-color:var(--bg4);
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background: linear-gradient(35deg,var(--bg3),transparent);
-  opacity: .6; 
+  background: linear-gradient(35deg,var(--accent1), var(--txt2));
+  opacity: .4; 
+  border-radius: 15px;
 }
 .Mulli img { 
   filter: grayscale(100%) contrast(65%);
@@ -175,7 +192,7 @@ body { background-color:var(--bg4);
   background-color: var(--accent1);
   position: relative;
   padding-top: 100%;
-  padding-bottom: 20%;
+  padding-bottom: 13%;
   height: 0px; 
 }
 
@@ -189,7 +206,7 @@ body { background-color:var(--bg4);
   right: 0px;
   bottom: 0px;
   background: linear-gradient(35deg,var(--bg3),transparent);
-  opacity:.35; 
+  opacity: 0; 
 }
 
 .Mulli-mood div { 
@@ -198,14 +215,14 @@ body { background-color:var(--bg4);
   gap: 10px;
   padding: 25px;
   background-color: var(--bg2);
-  max-width: 370px; 
+  max-width: 410px; 
   margin: calc(-75% - 61px) auto; 
   border-radius: 10px;
 }
 
 .Mulli-mood img { 
-  width: 118px; 
-  height: 118px;
+  width: 130px; 
+  height: 130px;
   border-radius: 10px;
 }
 .Mulli-mood + .Mulli-bot div { 
@@ -219,7 +236,6 @@ body { background-color:var(--bg4);
 
 .Mulli-quote { 
   background-color: var(--accent1);
-  background-image: url('https://images.unsplash.com/photo-1746908592757-2c1d682b71db?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   margin-bottom: 3px;
   position: relative; 
   color:var(--bg2);
@@ -249,4 +265,3 @@ body { background-color:var(--bg4);
 .Mulli-quote + .Mulli-bot div::before {
   display:none; 
 }
-
