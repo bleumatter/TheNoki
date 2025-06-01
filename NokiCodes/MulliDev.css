@@ -235,7 +235,7 @@ body { background-image: var(--bgimg2); background-repeat: no-repeat; background
 
 
 .Mulli-quote { 
-  background-color: var(--accent1);
+  background-image: var(--bgimg2);
   margin-bottom: 3px;
   position: relative; 
   color:var(--bg2);
