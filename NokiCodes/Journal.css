@@ -1,374 +1,513 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+}
+
+
+/* TEMPLATE STUFF HERE!!! */
+
+
+
+/* ACCENTS PAGE */
 
 .CharlesCox {
-	--accent: #7CA37F;
+  --Accent_Color: #A8801A;
+  --Accent_Icon: "⌾";
 }
 
-.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
-	background: #000;
+/* OVERALL FORMATTING */
+
+.bluwrap {
+    max-width: 800px;
 }
 
-body { 
-	font-family: 'Roboto', sans-serif; 
+.blujournal {
+  --Title: 'Corben', cursive;
+  --H2: 'Sarabun', sans-serif;
+  --Sans: verdana;
+  --Font_Size: 12px;
+  --Font_Color: #000000BF;
+  --bg: #f4f4f4;
+  --bg2: #f9f9f9;
+  margin: auto;
+  border: 0px solid var(--Accent_Color);
+  box-sizing: border-box!important;
+  width: 90%;
+  min-width: 240px;
+  max-width: 782px;
+  font-size: var(--Font_Size);
+  line-height: 24px;
+  font-family: var(--Sans);
+  text-align: justify;
+  color: var(--Font_Color);
+  background-color: var(--bg);
+  border-radius: 15px;
+  box-shadow: 2px 2px 13px 1px lightgrey;
 }
 
-.accordion {
-	max-width: 80%;
-	margin: 0px; 
-	padding: 0px;
+/* BOLD, ITALICS, UNDERLINE */
+
+.blujournal b, .blujournal i, .blujournal u {
+  background: none;
+  -webkit-background-clip: revert!important;
+  -webkit-text-fill-color: revert;
+  color: var(--Font_Color);
 }
 
-.accordion button {
-	width: 100%;
-	text-align: left;
-	padding: 10px;
-	font-size: 1rem;
-	color: #fff;
-	background-color: var(--accent); 
-	filter: opacity(100%);
-	border: 0px solid #fff;
-	cursor: pointer;
-	margin-bottom: 3px;   
-	border-radius: 10px;
+.blujournal b, .blujournal i {
+  opacity: .8;
 }
 
-.accordion a {
-
-	text-decoration: none;
-	color: var(--accent);
-	line-height: 13px;
-	font-size: 14px; 
-	margin-right: 5px;
-	font-weight: 800;
-	text-transform: uppercase;
+.blujournal u {
+  opacity: 1;
+  border-bottom: 1px solid var(--Accent_Color);
+	padding: 1px 0px;
+  text-decoration: none;
 }
 
-.accordion div {
-	padding: 20px;
-	margin: 3px 0px 6px 0px;
-	border: 0px solid #000;   
-	text-align: justify;
-	font-family: arial;
-	font-size: 13px;
-	line-height: 13px;
-	background-color: white;
-	border-radius: 10px;
+.darkmode .blujournal, .darkmode .blujournal b, .darkmode .blujournal i, .darkmode .blujournal u {
+  color: var(--text);
 }
 
-.accordion ol {
+/* LINK FORMATTING */
+
+.blujournal a, .blujournal a:visited, .blujournal a:hover, .blujournal a:active {
+  text-decoration: none;
+}
+
+.blujournal a, .blujournal a:visited {
+  border-bottom: 0px solid var(--Accent_Color);
+	padding: 1px 0px;
+  font-weight: 800;
+	text-transform: lowercase;
+}
+
+.blujournal a, .blujournal a:visited {
+  transition: color .8s;
+  color: var(--Font_Color);
+}
+
+.blujournal a:hover, .blujournal a:active {
+  color: var(--Accent_Color);
+}
+
+. .blujournal a, . .blujournal a:visited {
+  color: var(--Accent_Color);
+}
+
+. .blujournal a:hover, . .blujournal a:active {
+  color: var(--text);
+}
+
+.darkmode .blujournal a, .darkmode .blujournal a:visited, .darkmode .blujournal a:hover, .darkmode .blujournal a:active {
+	color: #fff
+}
+
+
+/* H2 & H3 */
+
+.blujournal h2, .blujournal h3 {
+  width: auto;
+  border-radius: 10px;
+  padding: 8px;
+  background: none;
+	text-transform: lowercase; 
+  background: var(--Accent_Color);
+}
+
+.blujournal h2 {
+  margin: -4px 0 4px;
+  font: 600 calc(var(--Font_Size) * 2) var(--H2); 
+  color: var(--bg);
+}
+
+.blujournal h2::before {
+  content: /*counter(listStyle, circle)*/var(--Accent_Icon)!important; padding-right: 20px; padding-left: 10px;
+}
+
+.darkmode .blujournal h2 {
+  margin: -4px 0 4px;
+  font: 600 calc(var(--Font_Size) * 2) var(--H2);
+	color: #FFFFFF!important;
+}
+
+.blujournal h3 {
+  margin: 12px 0 0;
+  opacity: 1;
+  border-bottom: 0px;
+  -webkit-background-clip: revert!important;
+  -webkit-text-fill-color: revert;
+  font: 600 calc(var(--Font_Size) * 1.5) var(--H2);
+	color: var(--Accent_Color)!important;  
+}
+
+
+/* LIST FORMATTING */
+
+.blujournal ol {
 	list-style-type: none;
 	counter-reset: ol-counter;
 	margin: 0;
 	padding-inline-start: 5%;
 }
 
-.accordion ol li {
+.blujournal ol li {
 	display: table;
-	margin: 0;
-	border: none!important;
+  margin: 0;
+  border: none!important;
 	width: 100%;
 	padding: 0;
 	text-align: justify;
 	counter-increment: ol-counter;
 }
 
-.accordion ol li:before {
+.blujournal ol li:before {
 	display: table-cell;
-	margin-right: 5px;
-	width: 28px; 
+  margin-right: 5px;
+  width: 28px; 
 	padding: 0;
+  font-size: calc(var(--Font_Size) - 1px);
+	font-family: var(--Sans);
 	font-weight: 700;
 	letter-spacing: 1px;
-	color: var(--accent);
-	content: counter(ol-counter,decimal-leading-zero);
+	color: var(--Accent_Color);
+  content: counter(ol-counter,decimal-leading-zero);
 }
 
-.accordion ul {
+.blujournal ul {
 	margin: 0;
 	padding-inline-start: 5%;
-	list-style-type: none;
+  list-style-type: none;
 }
 
-.accordion ul li {
+.blujournal ul li {
 	display: table;
-	margin: 0;
-	border: none;
+  margin: 0;
+  border: none;
 	width: 100%;
 	padding: 0;
 	text-align: justify;
 }
 
-.accordion ul li:before {
+.blujournal ul li:before {
 	display: table-cell;
 	margin-right: 5px;
-        width: 24px;
+  width: 24px;
 	padding: 0;
-        font-size: 14px;
+  font-size: calc(var(--Font_Size) * 1.1);
+	font-family: var(--Sans);
 	font-weight: 700;
-	color: var(--accent);
-	content: /*counter(listStyle, circle)*/var(--Accent_Icon)!important;
+	color: var(--Accent_Color);
+  content: /*counter(listStyle, circle)*/var(--Accent_Icon)!important;
 }
 
-.accordion ol li ul li {
+.blujournal ol li ul li {
+	margin: 10px 0 0;
+  border: none;
+  padding: 0px;
+}
+
+.blujournal ul li ul li {
 	margin: 10px 0 0;
 	border: none;
-	padding: 0px;
+  padding: 0px;
 }
 
-.accordion ul li ul li {
-	margin: 10px 0 0;
-	border: none;
-	padding: 0px;
-}
-
-..accordion ul.unset li {
+.blujournal ul.unset li {
 	margin: 0!important;
 	border: none!important;
 	padding: 0!important;
 }
 
-..accordion ul.unset li:before { 
-	color: var(--accent); 
-}
-
-.accordion li {
-	margin-bottom: 20px
-}
-
-.accordion hr {	
-	margin: 14px 0;
-	border: 0px;
-	height: 1px;
-	background: var(--accent);
-}
-
-.accordion subinfo {
-	border: 1px solid var(--accent);
-}
-
-.icon {
-	margin-right: 10px;
-	font-weight: bold;
-}
-
-.accordion .icon {
-	margin-right: 10px;
-}
-
-.accordion-wrapper {
-	width: 80%
-}
-
-.accordion-wrapper h11 {
-	text-align: right; 
-}
-
-.accordion-wrapper h11 a {
-	text-align: right;
-	text-decoration: none;
-	font-size: 38pt;
-	line-height: 10pt;
-	position: relative;
-	z-index: 2;
-	font-family: verdana;
-	-webkit-text-fill-color: var(--accent);
-	-webkit-text-stroke: 1px white;
-	letter-spacing: -1.5px;
-	text-transform: lowercase;
-	margin-right: -130px;
-	margin-top: 30px;
-}
-
-.accordion-wrapper h11 a {
-  text-align: right;
-  text-decoration: none;
-  font-size: 38pt;
-  line-height: 10pt;
-  position: relative;
-  z-index: 2;
-  font-family: verdana;
-  -webkit-text-fill-color: var(--accent);
-  letter-spacing: -1.5px;
-  text-transform: lowercase;
-  margin-right: -30px;
-}
-
-.accordion h22 {
-  margin: 0;
-  font-size: 1rem; 
+.blujournal ul.unset li:before { 
+  color: var(--Accent_Color); 
   
 }
 
-.accordion h33 {
-  margin-bottom: 20px;
-  font-size: 13px;
-  font-weight: 100;
-  padding: 2px 10px 10px 10px;
+
+/* TITLE FORMATTING */
+
+.blujournal_Header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: flext-start;
+  padding: 30px 20px;
+  background: none;
+  text-transform: lowercase;
+  background-color: var(--Accent_Color);
+  border: black 0px solid;
+  margin-bottom: 30px;
+  border-radius: 15px 15px 0px 0px;
 }
 
-.thread_desc {
-  margin-top: 0px;
+.blujournal_Title {
+  order: 1;
+  flex: 1 0 80%;
+  box-sizing: border-box!important;
+  padding-right: 2%;
+  font-size: 38px;
+  line-height: 68px;
+  font-family: var(--Title);
+  font-weight: 600;
+  text-align: right;  
 }
 
-.tag {
-  background-color: var(--accent); color: white; padding: 4px 7px 4px 7px; border-radius: 5px;
+.blujournal_Title a, .blujournal_Title a:visited, .blujournal_Title a:hover, .blujournal_Title a:active {
+  border-bottom: 0;
+	padding: 0px;
+  font-weight: 600;
+  color: var(--Accent_Color);
+  -webkit-text-stroke: 2px var(--bg);
+  text-shadow: 1px 1px 2px var(--Font_Color);
 }
 
-.accordion left {
-  font-size: 14px;
-  font-weight: 100; 
-  scrollbar-color: var(--accent) transparent; scrollbar-width: thin; 
+.darkmode .blujournal_Title a, .darkmode .blujournal_Title a:visited, .darkmode .blujournal_Title a:hover, .darkmode .blujournal_Title a:active {
+  border-bottom: 0;
+	padding: 0px;
+  font-weight: 600;
+	color: #FFF;
 }
 
-.accordion left img {
-  font-size: 14px;
-  font-weight: 100; 
-  float: left;
-  width: 20%;
-  height: auto;
-  margin-right: 10px;
-  border-radius: 10px;
+.blujournal_Symbol {
+  order: 2;
+  box-sizing: border-box!important;
 }
 
-.accordion right {
-  font-size: 14px;
-  font-weight: 100; 
-  scrollbar-color: var(--accent) transparent; scrollbar-width: thin; 
-}
-
-.accordion right img {
-  font-size: 14px;
-  font-weight: 100; 
-  float: right;
-  width: 20%;
-  height: auto;
-  margin-left: 10px;
-  border-radius: 10px;
-}
-
-.accordion hl {
-  padding: .5px;
-  background-color: var(--accent);
+.blujournal_Symbol i {
+  opacity: 1;
+  background: none;
+  -webkit-background-clip: revert!important;
   -webkit-text-fill-color: revert;
-  min-width: 100%;
-  height: 2px;
+  font-size: 100px;
+  color: var(--Font_Color);
 }
 
-.accordion1 li {
-  margin: 5px 0px 5px 5px;
+. .blujournal_Symbol i {
+  color: var(--Accent_Color);
 }
 
-.box div {
-  border: 1px solid black;
-  padding: 20px 20px 10px 30px;
-  font-size: 14px;
-  line-height: 16px;
+
+/* MAIN CONTENT FORMATTING */
+
+.blujournal_Content {
+  padding: 0% 5%;
 }
 
-.box div i {
-  margin-right: 20px;
+/* DROP-DOWN FORMATTING */
+
+.Noki_Button {
+  all: unset;
+  width: 100%;
+  cursor: s-resize;
+  border: 0px;
+  padding: 2px;
+  margin-bottom: -20px;
+  margin-top: -20px;
+  
+}
+
+.buton_contain {
+  padding: 20px; 
+  background-color: var(--bg2); 
+  
+}
+
+.Noki_Button_Hide {
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  max-height: 0;
+}
+
+.Noki_Button_Hide > :last-child { 
+  margin: 5px; 
+  border-radius: 10px;
+} 
+
+.blujournal_Thread_Description { 
+  margin-bottom: 1em;
+  padding-left: 5%;
+}
+
+.blujournal hr {
+	margin: 14px 0;
+  border: 0px;
+  height: 1px;
+}
+
+.blujournal_Hearts_Info {
+  margin: auto;
+  margin-top: 14px;
+  box-sizing: border-box!important;
+  border: 1px solid var(--Accent_Color);
+  width: 90%;
+  padding: 3% 5%;
+  border-radius: 10px;
+}
+.blujournal_Hearts_Info i {
+  --acquaintance: red;
   font-size: 20px;
-  line-height: 10px;
+  padding-right: 5px;
+  margin-top: -4px;
+}
+
+/* BOTTOM FORMATTING */
+
+.blujournal_Bottom {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  margin: 2% 0;
+  padding: 10px;
+  box-sizing: border-box!important;
+  background-color: var(--bg2);
+  border-radius: 15px;
+  border: 1px solid var(--Accent_Color);
+}
+
+.blujournal_Bottom img {
+  order: 2;
+  box-sizing: border-box!important;
+  width: 160px;
+  padding: 5px;
+  border-radius: 100%;
+  border: 5px solid var(--Accent_Color);
+}
+
+.blujournal_Platonic {
+  order: 1;
+  box-sizing: border-box!important;
+}
+
+.blujournal_Romantic {
+  order: 3;
+  box-sizing: border-box!important;
+}
+
+.blujournal_Platonic, .blujournal_Romantic {
+  max-width: 147px;
+  height: 147px;
+  padding: 10px;
+  font-size: 28px;
+  line-height: 28px;
+  font-family: var(--Title);
+  weight: 600;
+  text-align: center;
+}
+
+.blujournal_Platonic i, .blujournal_Romantic i {
+  --zero: black;
+  --one: #D7B563;
+  --two: #8DD763;
+  --three: #60D7A0;
+  --four: #60A7D7;
+  --five: #7160D7;
+  --six: #BE60D7;
+  --seven: #D76095;
+  --eight: #D76060;
+  opacity: 1;
+  padding: 20px;
+  background: none;
+  -webkit-background-clip: revert!important;
+  -webkit-text-fill-color: revert;
+  font-size: 60px;
+}
+.blujournal_Symbol a {
+  border-bottom: 0px;
+}
+.quote_right {
+  background-color: var(--bg2);
+  padding: 10px;
+  line-height: 13px;
+  font-size: 13px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.quote_right img {
+  width: 50px; 
+  float: left;
+  margin-right: 5px;
+  border-radius: 100%;
+  border: solid 5px var(--Accent_Color);
+  padding: 3px;
+}
+
+.quote_left {
+  background-color: var(--bg2);
+  padding: 10px;
+  line-height: 13px;
+  font-size: 13px;
+  text-align: right;
+  border-radius: 10px;
+  margin: 5px;
+}
+.quote_left img {
+  width: 50px; 
+  float: right;
+  margin-left: 5px;
+  border-radius: 100%;
+  border: solid 5px var(--Accent_Color);
+  padding: 3px;
+}
+
+/* WITHIN POST */
+.Template_Name_Platonic_Name i, .Template_Name_Platonic_Small_Name i {
+ color: #939393;
+}
+
+.darkmode .Template_Name_Platonic_Name i, .darkmode .Template_Name_Platonic_Small_Name i {
+ color: #939393;
+}
+
+.Template_Name_Romantic_Name i, .Template_Name_Romantic_Small_Name i {
+ color: #939393;
+}
+
+.darkmode .Template_Name_Romantic_Name i, .darkmode .Template_Name_Romantic_Small_Name i {
+ color: #939393;
+}
+.darkmode .notable-quotes-4, .notable-quotes-2, .notable-quotes-5, .notable-quotes-31 .notable-quotes-1 {
+	background-color: #222222; color: #f3f3f3;
+}
+
+.smash i {
+  float: left; 
+  border-radius: 100%; 
+  font-size: 30px; 
+  line-height: 35px; 
+  border-radius: 100%; 
+  align-items: center; 
+  color: white;
 }
 
 .smash {
-  float: left;
-  margin-left: 10px;
-  padding: 6px 6px 6px 6px;
-}
-
-.yes i {
-  background-color: #D15776;
-  color: #813246;
-  width: 22px;
-  height: 20px;
-  margin-left: 10px;
-  font-size: 20px;
-  border-radius: 100%;
-  padding: 6px 6px 6px 6px;
-}
-
-.no i {
-  background-color: #BABABA;
-  color: #5A5A5A;
-  width: 22px;
-  height: 20px;
-  margin-left: 10px;
-  font-size: 20px;
-  border-radius: 100%;
-  padding: 6px 6px 6px 6px;
-}
-
-.bottomstuff {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: DodgerBlue; 
-  vertical-align: middle;
-  align: center;
-}
-
-.bottomstuff > div {
-  background-color: #EAEAEA;
+  --yes: green;
+  --no: grey;
+  width: 30px; 
+  height: 30px; 
+  float: left; 
+  border-radius: 100%; 
+  font-size: 30px; 
+  line-height: 35px; 
+  border-radius: 100%; 
+  align-items: center; 
+  color: white; 
   padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 140px;
-  height: 140px;
-  border: 0px;
-  font-size: 38pt;
-  vertical-align: middle;
-  margin: 15px;
+  border: solid 2px var(--bg);
+  box-shadow: 1px 1px 3px var(--Font_Color);
 }
 
-.bottomstuff i {
-  font-size: 38pt;
-  color: var(--accent);
-  font-weight: 700;
+.letter {
+  background-color: #fff;
+  padding: 40px;
+  margin: 0px;
+  border: 1px solid #f2f2f2;
+  line-height: 18px;
+  font-size: 14px;
+  font-family: Georgia;
 }
-
-.bottomstuff img {
-  width: 140px;
-  height: 140px;
-  object-fit: contain;   border-radius: 10px;
-}
-
-.enemy, .heartbroken { 
-  color: #000000;
-}
-
-.annoyance, .not_possible, o { 
-  color: #4C4C4C;
-}
-
-.stranger, .indifferent, o {
-  color: #939393;
-}
-
-.exchanged_names, .noticed, o {
-  color: #BA5FE3;
- }
-
-.acquaintance, .attracted, o {
-  color: #5FB8E3;
-}
-
-.friend, .crushing, o {
-  color: #76BB50;
-}
-
-.good_friend, .actively_seeking, o {
-  color: #E5D742;
-}
-
-.better_friend, .in_a_relationship, o {
-  color: #E68F42;
-}
-
-.best_friend, .in_love, o {
-  color: #F963B1;
-}
-
-.like_family, .long_term_commitment, o {
-  color: #ff0000;
-} 
