@@ -43,6 +43,7 @@
   background-color: var(--bg);
   border-radius: 15px;
   box-shadow: 2px 2px 13px 1px lightgrey;
+  padding-bottom: 10px;
 }
 
 /* BOLD, ITALICS, UNDERLINE */
