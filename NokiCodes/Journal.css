@@ -307,21 +307,19 @@
   border: 0px;
   padding: 2px;
   margin-bottom: -20px;
-  margin-top: -20px;
+  margin-top: -6px;
   
 }
 
 .buton_contain {
   padding: 20px; 
   background-color: var(--bg2); 
-  
 }
 
 .Noki_Button_Hide {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  margin-bottom: 10px;
-  margin-top: 7px;
+  margin: 10px 5px 10px 5px;
   max-height: 0;
 }
 
