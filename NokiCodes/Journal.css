@@ -487,8 +487,9 @@
 }
 
 .smash {
-  --yes: green;
-  --no: grey;
+  --yes: #539A5C;
+  --no: #D6D6D6;
+  --never: #A35252;	
   width: 30px; 
   height: 30px; 
   float: left; 
