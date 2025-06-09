@@ -66,9 +66,10 @@ letter-spacing: 1.5px;
 .GrassSnake-3 b {
   color: var(--accent);
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 750;
   font-family: georgia;
   font-style: italic;
+  -webkit-text-fill-color: revert; 
 }
 .GrassSnake-3 b:before { 
   content: open-quote;
