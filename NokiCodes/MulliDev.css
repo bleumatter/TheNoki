@@ -1,3 +1,4 @@
+
 body { background-image: var(--bgimg2); background-repeat: no-repeat; background-size: 950px; background-attachment: fixed;
   
     --bg0: #eee;
@@ -42,7 +43,7 @@ body { background-image: var(--bgimg2); background-repeat: no-repeat; background
   font: 40pt var(--font2);
   color: var(--accent1);
   line-height: 30px;
-  letter-spacing: 0px;
+  letter-spacing: 3px;
   background-color: var(--bg2);
   text-transform: uppercase;
   border-bottom: 8px solid var(--bg1);
@@ -52,7 +53,7 @@ body { background-image: var(--bgimg2); background-repeat: no-repeat; background
   text-transform: lowercase;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--bg4);
-  text-shadow: var(--accent2) .5px 0 5px;
+  text-shadow: var(--accent2) 1px 1 8px;
   background-image: var(--bgimg);
   background-size: 600px;
   
@@ -131,7 +132,6 @@ body { background-image: var(--bgimg2); background-repeat: no-repeat; background
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background: linear-gradient(35deg,var(--accent1), var(--txt2));
   opacity: .4; 
   border-radius: 15px;
 }
@@ -235,7 +235,7 @@ body { background-image: var(--bgimg2); background-repeat: no-repeat; background
 
 
 .Mulli-quote { 
-  background-image: var(--bgimg2);
+  background-color: var(--accent1);
   margin-bottom: 3px;
   position: relative; 
   color:var(--bg2);
@@ -245,7 +245,8 @@ body { background-image: var(--bgimg2); background-repeat: no-repeat; background
 }
 .Mulli-quote div { 
   background-color: rgba(290, 290, 290, 0.25);
-  padding: 20px;  border-radius: 10px;
+  padding: 20px;  
+  border-radius: 10px;
 }
 .Mulli-quote::before { 
   content:'';
@@ -265,10 +266,3 @@ body { background-image: var(--bgimg2); background-repeat: no-repeat; background
 .Mulli-quote + .Mulli-bot div::before {
   display:none; 
 }
-
-
-<script src="https://unpkg.com/phosphor-icons"></script>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Serif+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Serif+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
