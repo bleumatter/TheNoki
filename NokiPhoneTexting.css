@@ -4,8 +4,14 @@
 --nokiaslAccent1: #DB8C43;
 --phonecolor: #333;
 --case: #9CC0E2;
---nokiaslPhoneBG:url(https://i.postimg.cc/ZT3HhCp4/image-2025-05-23-203145237.png); background-repeat: no-repeat; background-size: 320px 520px; }
-
+--nokiaslPhoneBG:url(https://i.postimg.cc/ZT3HhCp4/image-2025-05-23-203145237.png); background-repeat: no-repeat; background-size: 320px 520px;
+}
+.Rafael {
+--nokiaslAccent1: #DB8C43;
+--phonecolor: #333;
+--case: #9CC0E2;
+--nokiaslPhoneBG:url(https://i.pinimg.com/736x/84/e3/22/84e322fa699ec97d7fc41c46d733c48e.jpg); background-repeat: no-repeat; background-size: 320px 520px;
+}
 .darkmode {
 --nokiaslAccent2: #555; 
 --nokiaslAccent3: #333; 
