@@ -9,7 +9,10 @@
 
 
 /* ACCENTS PAGE */
-
+.NikolaPetkovic {
+  --Accent_Color: #8b865a;
+  --Accent_Icon: "✄";
+}
 .CharlesCox {
   --Accent_Color: #7CA37F;
   --Accent_Icon: "♠";
