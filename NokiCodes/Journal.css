@@ -9,6 +9,10 @@
 
 
 /* ACCENTS PAGE */
+.DorotheaLockwood {
+  --Accent_Color: #EF98AA;
+  --Accent_Icon: "❀";
+}
 .NikolaPetkovic {
   --Accent_Color: #8b865a;
   --Accent_Icon: "◈";
