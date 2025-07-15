@@ -11,7 +11,7 @@
 /* ACCENTS PAGE */
 .NikolaPetkovic {
   --Accent_Color: #8b865a;
-  --Accent_Icon: "✄";
+  --Accent_Icon: "◈";
 }
 .OliverDunn {
   --Accent_Color: #0f6567;
@@ -27,19 +27,19 @@
 }
 .ArcherEllsworth {
   --Accent_Color: #B7AD7B;
-  --Accent_Icon: "-";
+  --Accent_Icon: "⚠";
 }
 .CerridwenDays {
   --Accent_Color: #423A73;
-  --Accent_Icon: "-";
+  --Accent_Icon: "⚝";
 }
 .JPLaFlamme {
   --Accent_Color: #c44d3d;
-  --Accent_Icon: "-";
+  --Accent_Icon: "⊗";
 }
 .RafaelDelBosque {
   --Accent_Color: #B76F6C;
-  --Accent_Icon: "ᨐฅ";
+  --Accent_Icon: "𓃮";
 }
 .DexterKing {
   --Accent_Color:#982D2D;
