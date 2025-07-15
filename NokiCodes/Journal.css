@@ -13,6 +13,10 @@
   --Accent_Color: #8b865a;
   --Accent_Icon: "✄";
 }
+.OliverDunn {
+  --Accent_Color: #0f6567;
+  --Accent_Icon: "𓆣";
+}
 .CharlesCox {
   --Accent_Color: #7CA37F;
   --Accent_Icon: "♠";
