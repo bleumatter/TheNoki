@@ -9,6 +9,10 @@
 
 
 /* ACCENTS PAGE */
+.YunMaRi {
+  --Accent_Color: #29B284;
+  --Accent_Icon: "♀";
+}
 .DorotheaLockwood {
   --Accent_Color: #D78899;
   --Accent_Icon: "❀";
