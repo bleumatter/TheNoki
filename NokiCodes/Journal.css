@@ -9,6 +9,10 @@
 
 
 /* ACCENTS PAGE */
+.Ramiel {
+  --Accent_Color: #9B9FCC;
+  --Accent_Icon: "✴︎";
+}
 .YunMaRi {
   --Accent_Color: #29B284;
   --Accent_Icon: "♀";
