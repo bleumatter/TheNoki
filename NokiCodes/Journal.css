@@ -9,6 +9,10 @@
 
 
 /* ACCENTS PAGE */
+.NakamuraYuudai {
+  --Accent_Color: #334367;
+  --Accent_Icon: "✴-";
+}
 .Ramiel {
   --Accent_Color: #9B9FCC;
   --Accent_Icon: "✴︎";
