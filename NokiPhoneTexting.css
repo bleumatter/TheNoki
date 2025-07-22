@@ -109,7 +109,7 @@
 }
 
 .nokiaslMessages h11 { 
-  margin-right: 10px; margin-top: 5px; margin-left: 130px; max-width: 200px; color: var(--white); padding: 5px; font: 11px Quicksand; text-align: justify; width: auto; border-radius: 15px; border: 6px solid var(--nokiaslAccent1); background-color: var(--nokiaslAccent1); line-height: 12px; 
+  margin-right: 10px; margin-top: 5px; margin-left: 130px; marrgin-bottom: 5px; max-width: 200px; color: var(--white); padding: 5px; font: 11px Quicksand; text-align: justify; width: auto; border-radius: 15px; border: 6px solid var(--nokiaslAccent1); background-color: var(--nokiaslAccent1); line-height: 12px; 
 }
 
 .nokiaslMessages h22 { 
