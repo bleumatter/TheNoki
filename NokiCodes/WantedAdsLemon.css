@@ -1,0 +1,64 @@
+.LemonDropWrap {
+  margin-top: 2px;
+  width: 600px;
+  background-color: #77628C;
+  padding: 10px;
+  color: #333;
+}
+.LemonBody {
+  margin-top: 20px;
+  padding: 15px;
+}
+.LemonBody h5 {
+  font-weight: 800;
+  font-size: 20pt;
+  margin: 10px 0px 10px 20px;
+  color: #77628C;
+}
+.LemonBody h6 {
+  font-weight: 800;
+  font-size: 15pt;
+  margin: 10px 0px 10px 20px;
+  border-bottom: 1px solid #71A0A5;
+  color: #71A0A5;
+}
+.LemonDropWrap1 {
+  width: 600px;
+  padding: 10px;
+}
+.LemonDropTitle {
+  text-transform: lowercase;
+  font-size: 45pt;
+  font-weight: 700;
+  color: #77628C;
+  margin: 0px -20px -17px 0px;
+  text-align: right;
+}
+.LemonDrop {
+  background-color: #f8f8f8;
+  text-align: justify;
+  padding: 20px;
+  font-family: verdana;
+  font-size: 12px;
+  min-height: 195px;
+}
+.LemonDrop i, s, u, b {
+   color: #71A0A5; 
+}
+.LemonDropIMG img {
+  width: 300px;
+  height: 152px;
+  float: left;
+  margin: 0px 15px 0px 0px;
+  border: solid 5px #71A0A5;
+  padding: 10px;
+}
+.LemonBox {
+  background-color: #71A0A5;
+  padding: 5px;
+  width: 40%;
+  margin: 0px 0px 0px 337px;
+  border: #71A0A5 solid 1px;
+  margin-bottom: 5px;
+  color: #EEEEEE;
+}
