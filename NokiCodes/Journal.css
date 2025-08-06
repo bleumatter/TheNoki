@@ -9,6 +9,10 @@
 
 
 /* ACCENTS PAGE */
+.Somhairle {
+  --Accent_Color: #E7CCCC;
+  --Accent_Icon: "₊✧";
+}
 .NakamuraYuudai {
   --Accent_Color: #334367;
   --Accent_Icon: "✴";
