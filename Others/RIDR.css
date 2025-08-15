@@ -1,0 +1,188 @@
+/**** CREDITS, DO NOT REMOVE. *****/
+/**** tinder template code *****/
+/**** by tommy of tankengine-skins on tumblr / tommy of jcc *****/
+/**** [URL=https://tankengine-skins.tumblr.com/]https://tankengine-skins.tumblr.com/[/URL] *****/
+
+
+/**** to change the gradient colors, please edit here. *****/
+:root {
+ --one: rgba(211, 180, 213,1); /**** THE LEFT COLOR *****/
+ --two: rgba(214, 175, 178,1); /**** THE RIGHT COLOR *****/
+}
+/**** END EDIT *****/
+
+.flames {
+ background: white;
+ width: 350px;
+ min-height: 450px;
+ overflow: stretch;
+ padding: 20px;
+ border-radius: 10px 10px 0 0;
+}
+
+.flamesimg {
+ width: 340px;
+ height: 400px;
+ background-size: cover!important;
+ background-position: center!important;
+ border-radius: 10px 10px 0 0;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+.flamesname {
+ font-family: 'Anton', sans-serif;
+ font-size: 30pt;
+ width: 350px;
+ height: 70px;
+ text-align: justify;
+ margin-top: -33px;
+ padding-left: 10px;
+ color: white;
+ text-shadow: -1px -1px 0 var(--one),
+   -2px -2px 0 var(--one),
+   -3px -3px 0 var(--one),
+   -4px -4px 0 var(--one),
+   1px 1px 0 var(--two),
+   2px 2px 0 var(--two),
+   3px 3px 0 var(--two),
+   4px 4px 0 var(--two);
+}
+
+.flamesbio {
+ width: 340px;
+ text-align: justify;
+ color: black;
+ font-family: 'Work Sans', sans-serif;
+}
+.flamesbio b {
+ background: -moz-linear-gradient(90deg, var(--one) 0%, var(--two) 100%);
+ background: -webkit-linear-gradient(90deg, var(--one) 0%, var(--two) 100%);
+ background: linear-gradient(90deg, var(--one) 0%, var(--two) 100%);
+ padding: 3px 10px;
+ border-radius: 10px;
+ color: white;
+ font-weight: 900;
+}
+
+.flames-bottom {
+ padding: 15px 20px;
+ background: -moz-linear-gradient(90deg, var(--one) 0%, var(--two) 100%);
+ background: -webkit-linear-gradient(90deg, var(--one) 0%, var(--two) 100%);
+ background: linear-gradient(90deg, var(--one) 0%, var(--two) 100%);
+ width: 350px;
+ height: 50px;
+ border-radius: 0 0 10px 10px;
+ display:flex;
+ align-items: center;
+ align-content: center;
+ justify-content: space-around;
+}
+
+.flames-bottom a {
+ text-decoration: none;
+}
+
+.flame-bottom, .sf {
+ color: white;
+ font-size: 22pt;
+}
+
+@keyframes shake {
+ 10%, 90% {
+   transform: translate3d(-1px, 0, 0);
+ }
+ 
+ 20%, 80% {
+   transform: translate3d(2px, 0, 0);
+ }
+
+ 30%, 50%, 70% {
+   transform: translate3d(-4px, 0, 0);
+ }
+
+ 40%, 60% {
+   transform: translate3d(4px, 0, 0);
+ }
+}
+
+.flame-bottom, .sf:hover {
+ animation: shake 1s infinite;
+}
+
+/**** SWIPE CODES *****/
+
+.flameswipe {
+ width: 400px;
+ padding: 20px;
+ background: -moz-linear-gradient(90deg, var(--one) 0%, var(--two) 100%);
+ background: -webkit-linear-gradient(90deg, var(--one) 0%, var(--two) 100%);
+ background: linear-gradient(90deg, var(--one) 0%, var(--two) 100%);
+ border-radius: 10px;
+ display:flex;
+ align-items: center;
+ align-content: center;
+ justify-content: space-around;
+ color: white;
+ font-size: 23pt;
+}
+
+.sf-cross, .sf-flame-o {
+ margin-top: 10px;
+ animation: shake 1s infinite;
+ color: white;
+ text-shadow: -1px -1px 0 var(--two),
+   -2px -2px 0 var(--two),
+   -3px -3px 0 var(--two),
+   -4px -4px 0 var(--two);
+}
+
+.flameswipe text {
+ margin-top: 10px;
+ font-family: 'Work Sans', sans-serif;
+ font-size: 15pt;
+ width: 300px;
+}
+
+.flamesmatch {
+ width: 400px;
+ padding: 20px;
+ background: -moz-linear-gradient(90deg, var(--one) 0%, var(--two) 100%);
+ background: -webkit-linear-gradient(90deg, var(--one) 0%, var(--two) 100%);
+ background: linear-gradient(90deg, var(--one) 0%, var(--two) 100%);
+ border-radius: 10px 10px 0 0;
+ display:flex;
+ align-items: center;
+ align-content: center;
+ justify-content: space-around;
+ color: white;
+ font-size: 23pt;
+}
+
+.sf-cross, .sf-flame-o {
+ margin-top: 10px;
+ animation: shake 1s infinite;
+ color: white;
+ text-shadow: -1px -1px 0 var(--two),
+   -2px -2px 0 var(--two),
+   -3px -3px 0 var(--two),
+   -4px -4px 0 var(--two);
+}
+
+.flamesmatch text {
+ margin-top: 10px;
+ font-family: 'Work Sans', sans-serif;
+ font-size: 15pt;
+ width: 300px;
+}
+
+.swipe-bottom {
+ width:400px;
+ padding: 10px 20px;
+ font-family: 'Work Sans', sans-serif;
+ background: white;
+ font-size: 12pt;
+ color: #1f1e1d;
+ border-radius: 0 0 10px 10px;
+}
