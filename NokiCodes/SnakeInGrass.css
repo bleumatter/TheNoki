@@ -65,6 +65,7 @@
   font-weight: 750;
   -webkit-text-fill-color: revert; 
   font-weight: 900;
+  text-transform: lowercase;
 }
 .GrassSnake-3 b:before { 
   content: open-quote;
