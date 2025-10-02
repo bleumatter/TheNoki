@@ -484,21 +484,13 @@
 }
 
 .blujournal_Platonic i, .blujournal_Romantic i {
-  --zero: black;
-  --one: #D7B563;
-  --two: #8DD763;
-  --three: #60D7A0;
-  --four: #60A7D7;
-  --five: #7160D7;
-  --six: #BE60D7;
-  --seven: #D76095;
-  --eight: #D76060;
   opacity: 1;
   padding: 20px;
   background: none;
   -webkit-background-clip: revert!important;
   -webkit-text-fill-color: revert;
   font-size: 60px;
+  margin-top: 20px;
 }
 .blujournal_Symbol a {
   border-bottom: 0px;
