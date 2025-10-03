@@ -79,6 +79,16 @@
   --Accent_Icon: "༄";
 }
 
+.Khor {
+  --Accent_Color: #49797b;
+  --Accent_Icon: "༄";
+}
+
+.Hyacinth {
+  --Accent_Color: #DA7B85;
+  --Accent_Icon: "❀";
+}
+
 /* OVERALL FORMATTING */
 
 .bluwrap {
