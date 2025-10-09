@@ -21,7 +21,7 @@
   --Accent_Icon: "➵";
 }
 
-.EdgarBidell {
+.Edgar {
   --Accent_Color: #615448;
   --Accent_Icon: "❖";
 }
@@ -36,52 +36,47 @@
   --Accent_Icon: "✴︎";
 }
 
-.DorotheaLockwood {
+.Dorothea {
   --Accent_Color: #D78899;
   --Accent_Icon: "❀";
 }
 
-.LouiseWright {
+.Louise {
   --Accent_Color: #f79d65;
   --Accent_Icon: "🛸";
 }
-.CharlesCox {
+.Charles {
   --Accent_Color: #7CA37F;
   --Accent_Icon: "♠";
 }
-.AaronObrien {
+.Aaron {
   --Accent_Color: #C07448;
   --Accent_Icon: "❁";
 }
 
-.RafaelDelBosque {
+.Rafael {
   --Accent_Color: #B76F6C;
   --Accent_Icon: "𓃮";
 }
 
-.DexterKing {
+.Dexter {
   --Accent_Color:#982D2D;
   --Accent_Icon: "🗡";
 }
 
-.TheodoreWoodrowe {
+.Theodore {
   --Accent_Color: #63666d;
   --Accent_Icon: "☢";
 }
 
-.LyleReed {
+.Lyle {
   --Accent_Color: #5b5e89;
   --Accent_Icon: "♦";
 }
 
-.SilasWynters {
+.Silas {
   --Accent_Color: #2F3547;
   --Accent_Icon: "☾⋆";
-}
-
-.Khor {
-  --Accent_Color: #49797b;
-  --Accent_Icon: "༄";
 }
 
 .Khor {
