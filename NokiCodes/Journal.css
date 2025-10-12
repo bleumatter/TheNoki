@@ -47,7 +47,7 @@
 }
 
 .Louise {
-  --Accent_Color: background: linear-gradient(#e66465, #9198e5);
+  --Accent_Color: linear-gradient(to bottom, #ff8a00, #da1b60);
   --Accent_Icon: "🛸";
 }
 .Charles {
