@@ -131,7 +131,7 @@
 }
 
 .GrassSnake-6 > div {
-  background-color: #f1f1f1;
+  background-color: var(--bord2);
   width: auto;
   margin: 5px 5px 0px 0px;
   padding: 5px 10px 3px 7px;
