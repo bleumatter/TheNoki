@@ -60,7 +60,6 @@
 }
 .GrassSnake-3 b {
   color: var(--accent);
-  font-size: 14px;
   font-weight: 700;
   -webkit-text-fill-color: revert; 
   font-weight: 900;
