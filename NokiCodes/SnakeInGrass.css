@@ -5,13 +5,14 @@
   width: 600px;
   padding: 20px 20px 30px 20px;
   border-radius: 15px;
-  background: rgb(192,192,192, 0.3);
+  background: var(--gradient5);
 }
 .GrassSnake-1 {
   width: 100%;
   background-color: var(--aaa);
   padding-top: 30px;
   border-radius: 10px;
+  border: 1px solid var(--bord);
 }
 .GrassSnake-2 {
   font-family: lobster;
