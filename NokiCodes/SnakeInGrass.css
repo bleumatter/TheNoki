@@ -52,9 +52,8 @@
   margin-left: -290px;
 }
 .GrassSnake-3 b {
-  color: transparent;
+  color: var(--color1);
   padding: 5px;
-  background: var(--gradient1);
   font-weight: 700;
   -webkit-text-fill-color: revert; 
   font-weight: 900;
