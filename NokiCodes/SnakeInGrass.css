@@ -17,17 +17,17 @@
 .GrassSnake-2 {
   font-family: lobster;
   font-size: 45px;
-  background: var(--gradient1);
-  color: transparent;
-  background-clip: text;
   text-align: left;
   margin-left: 60px;
   line-height: 80%;
   text-transform: lowercase;
   margin-top: 50px;
-  opacity: 0.9;
   height: 86px;
   letter-spacing: 1.5px;
+  background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 5px;
 }
 .GrassSnake-3 {
   font-family: Quicksand;
