@@ -16,8 +16,6 @@
 .GrassSnake-2 {
   font-family: lobster;
   font-size: 45px;
-  background-image: var(--BGImage);
-  background-attachment: fixed;
   background: var(--gradient4);
   color: transparent;
   background-clip: text;
