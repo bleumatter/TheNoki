@@ -3,101 +3,6 @@
 :root {
 }
 
-/* TEMPLATE STUFF HERE!!! */
-
-/* ACCENTS PAGE */
-.Somhairle {
-  --Accent_Color: #c9a9a9;
-  --Accent_Icon: "₊✧";
-}
-
-.Draven {
-  --Accent_Color:#700404;
-  --Accent_Icon: "";
-
-.Donovan {
-  --Accent_Color: #66A9A8;
-  --Accent_Icon: "₊";}
-}
-
-.Cirilla {
-  --Accent_Color: #8B5350;
-  --Accent_Icon: "࣪♱";
-}
-
-.Zeshin {
-  --Accent_Color: #CC6A6B;
-  --Accent_Icon: "➵";
-}
-
-.Edgar {
-  --Accent_Color: #615448;
-  --Accent_Icon: "❖";
-}
-
-.Isaac {
-  --Accent_Color: #6C6D76;
-  --Accent_Icon: "꩜";	
-}
-
-.Ramiel {
-  --Accent_Color: #9B9FCC;
-  --Accent_Icon: "✴︎";
-}
-
-.Dorothea {
-  --Accent_Color: #D78899;
-  --Accent_Icon: "❀";
-}
-
-.Louise {
-  --Accent_Color: #C2824A;
-  --Accent_Icon: "🛸";
-}
-.Charles {
-  --Accent_Color: #7CA37F;
-  --Accent_Icon: "♠";
-}
-.Aaron {
-  --Accent_Color: #C07448;
-  --Accent_Icon: "❁";
-}
-
-.Rafael {
-  --Accent_Color: #B76F6C;
-  --Accent_Icon: "𓃮";
-}
-
-.Dexter {
-  --Accent_Color:#982D2D;
-  --Accent_Icon: "🗡";
-}
-
-.Theodore {
-  --Accent_Color: #63666d;
-  --Accent_Icon: "☢";
-}
-
-.Lyle {
-  --Accent_Color: #5b5e89;
-  --Accent_Icon: "♦";
-}
-
-.Silas {
-  --Accent_Color: #2F3547;
-  --Accent_Icon: "☾⋆";
-}
-
-.Khor {
-  --Accent_Color: #49797b;
-  --Accent_Icon: "༄";
-}
-
-.Hyacinth {
-  --Accent_Color: #DA7B85;
-  --Accent_Icon: "❀";
-}
-
 /* OVERALL FORMATTING */
 
 .bluwrap {
@@ -113,7 +18,7 @@
   --bg: #f4f4f4;
   --bg2: #f9f9f9;
   margin: auto;
-  border: 0px solid var(--Accent_Color);
+  border: 0px solid var(--gradient4);
   box-sizing: border-box!important;
   width: 90%;
   min-width: 240px;
@@ -144,7 +49,7 @@
 
 .blujournal u {
   opacity: 1;
-  border-bottom: 1px solid var(--Accent_Color);
+  border-bottom: 1px solid var(--gradient4);
 	padding: 1px 0px;
   text-decoration: none;
 }
@@ -160,7 +65,7 @@
 }
 
 .blujournal a, .blujournal a:visited {
-  border-bottom: 0px solid var(--Accent_Color);
+  border-bottom: 0px solid var(--gradient4);
 	padding: 1px 0px;
   font-weight: 800;
 	text-transform: lowercase;
@@ -172,11 +77,11 @@
 }
 
 .blujournal a:hover, .blujournal a:active {
-  color: var(--Accent_Color);
+  color: var(--gradient4);
 }
 
 . .blujournal a, . .blujournal a:visited {
-  color: var(--Accent_Color);
+  color: var(--gradient4);
 }
 
 . .blujournal a:hover, . .blujournal a:active {
@@ -195,7 +100,7 @@
   padding: 8px;
   background: none;
 	text-transform: lowercase; 
-  background: var(--Accent_Color);
+  background: var(--gradient4);
 }
 
 .blujournal h2 {
@@ -223,7 +128,7 @@
   -webkit-background-clip: revert!important;
   -webkit-text-fill-color: revert;
   font: 500 calc(var(--Font_Size) * 1.5) var(--H2);
-	color: var(--Accent_Color)!important;  
+	color: var(--gradient4)!important;  
 }
 
 /* LIST FORMATTING */
@@ -254,7 +159,7 @@
 	font-family: var(--Sans);
 	font-weight: 700;
 	letter-spacing: 1px;
-	color: var(--Accent_Color);
+	color: var(--gradient4);
   content: counter(ol-counter,decimal-leading-zero);
 }
 
@@ -281,7 +186,7 @@
   font-size: calc(var(--Font_Size) * 1.1);
 	font-family: var(--Sans);
 	font-weight: 700;
-	color: var(--Accent_Color);
+	color: var(--gradient4);
   content: /*counter(listStyle, circle)*/var(--Accent_Icon)!important;
 }
 
@@ -304,7 +209,7 @@
 }
 
 .blujournal ul.unset li:before { 
-  color: var(--Accent_Color); 
+  color: var(--gradient4); 
   
 }
 
@@ -319,7 +224,7 @@
   padding: 30px 20px;
   background: none;
   text-transform: lowercase;
-  background-color: var(--Accent_Color);
+  background-color: var(--gradient4);
   border: black 0px solid;
   margin-bottom: 30px;
   border-radius: 15px 15px 0px 0px;
@@ -367,7 +272,7 @@
 }
 
 . .blujournal_Symbol i {
-  color: var(--Accent_Color);
+  color: var(--gradient4);
 }
 
 /* MAIN CONTENT FORMATTING */
@@ -444,7 +349,7 @@
   margin: auto;
   margin-top: 14px;
   box-sizing: border-box!important;
-  border: 1px solid var(--Accent_Color);
+  border: 1px solid var(--gradient4);
   width: 90%;
   padding: 3% 5%;
   border-radius: 10px;
@@ -478,7 +383,7 @@
   width: 120px;
   padding: 5px;
   border-radius: 100px;
-  border: 5px solid var(--Accent_Color);
+  border: 5px solid var(--gradient4);
 }
 
 .blujournal_Platonic {
@@ -527,7 +432,7 @@
   float: left;
   margin-right: 7px;
   border-radius: 100%;
-  border: solid 5px var(--Accent_Color);
+  border: solid 5px var(--gradient4);
   padding: 3px;
 }
 
@@ -545,7 +450,7 @@
   float: right;
   margin-left: 7px;
   border-radius: 100%;
-  border: solid 5px var(--Accent_Color);
+  border: solid 5px var(--gradient4);
   padding: 3px;
 }
 .quote_scroll {
