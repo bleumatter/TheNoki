@@ -73,6 +73,7 @@
   font-size: 14px;
   filter: brightness(0.8);
   filter: hue-rotate(35deg);
+  font-family: georgia;
 }
 .GrassSnake-3 q:before { 
   content: open-quote;
@@ -84,7 +85,6 @@
 .GrassSnake-3 i {
   color: var(--color1);
   filter: brightness(0.4);
-  font-family: georgia;
 }
 .GrassSnake-3 a {
   text-decoration: none;
