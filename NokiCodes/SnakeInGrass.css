@@ -32,7 +32,7 @@
   filter: brightness(0.8);
 }
 .GrassSnake-3 {
-  font-family: Playfair Display;
+  font-family: Verdana;
   font-size: 13.5px;
   line-height: 150%;
   color: #555;
@@ -55,7 +55,7 @@
 }
 .GrassSnake-3 b {
   padding: 5px;
-  font-family: Playfair Display;
+  font-family: Verdana;
   font-weight: 700;
   -webkit-text-fill-color: revert; 
   font-weight: 900;
@@ -90,7 +90,7 @@
 .GrassSnake-3 i {
   color: var(--color1);
   filter: brightness(0.7);
-  font-family: Playfair Display;
+  font-family: Verdana;
 }
 .GrassSnake-3 a {
   text-decoration: none;
