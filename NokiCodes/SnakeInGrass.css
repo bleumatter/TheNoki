@@ -77,9 +77,11 @@
 }
 .GrassSnake-3 q:before { 
   content: open-quote;
+  quotes: "'" "'";
 }
 .GrassSnake-3 q:after { 
   content: close-quote;
+  quotes: "'" "'";
 }
 
 .GrassSnake-3 i {
