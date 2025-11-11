@@ -58,7 +58,7 @@
   -webkit-text-fill-color: revert; 
   font-weight: 900;
   text-transform: none;
-  filter: brightness(0.6);
+  filter: brightness(0.8);
 }
 .GrassSnake-3 b:before { 
   content: open-quote;
