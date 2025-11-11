@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .GrassSnake {
   width: 600px;
@@ -30,7 +31,7 @@
     padding-right: 5px;
 }
 .GrassSnake-3 {
-  font-family: Quicksand;
+  font-family: Playfair Display;
   font-size: 12px;
   line-height: 130%;
   color: #555;
