@@ -70,8 +70,10 @@
 }
 
 .GrassSnake-3 q {
-  color: var(--accent);
-  font-size: 14px;
+  color: transparent;
+  padding: 2px;
+  font-size: 13px;
+  background: var(--gradient);
   filter: brightness(0.8);
   filter: hue-rotate(35deg);
   font-family: georgia;
