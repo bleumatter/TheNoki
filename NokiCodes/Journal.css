@@ -224,7 +224,7 @@
   padding: 30px 20px;
   background: none;
   text-transform: lowercase;
-  background-color: var(--gradient4);
+  background: var(--gradient4);
   border: black 0px solid;
   margin-bottom: 30px;
   border-radius: 15px 15px 0px 0px;
