@@ -18,7 +18,7 @@
   --bg: #f4f4f4;
   --bg2: #f9f9f9;
   margin: auto;
-  border: 0px solid var(--gradient4);
+  border: 1px solid var(--bord);
   box-sizing: border-box!important;
   width: 90%;
   min-width: 240px;
@@ -224,7 +224,7 @@
   padding: 30px 20px;
   background: none;
   text-transform: lowercase;
-  background: var(--gradient4);
+  background: var(--gradient2);
   border: black 0px solid;
   margin-bottom: 30px;
   border-radius: 15px 15px 0px 0px;
@@ -350,7 +350,7 @@
   margin: auto;
   margin-top: 14px;
   box-sizing: border-box!important;
-  border: 1px solid var(--gradient4);
+  border: 1px solid var(--bord);
   width: 90%;
   padding: 3% 5%;
   border-radius: 10px;
