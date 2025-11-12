@@ -99,8 +99,8 @@
   border-radius: 10px;
   padding: 8px;
   background: none;
-	text-transform: lowercase; 
-  background: var(--gradient1);
+  text-transform: lowercase; 
+  background: var(--gradient2);
 }
 
 .blujournal h2 {
