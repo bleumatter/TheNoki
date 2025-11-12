@@ -100,7 +100,7 @@
   padding: 8px;
   background: none;
 	text-transform: lowercase; 
-  background: var(--gradient4);
+  background: var(--gradient3);
 }
 
 .blujournal h2 {
@@ -272,7 +272,7 @@
 }
 
 . .blujournal_Symbol i {
-  color: var(--gradient4);
+  color: var(--color1);
 }
 
 /* MAIN CONTENT FORMATTING */
