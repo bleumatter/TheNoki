@@ -100,7 +100,7 @@
   padding: 8px;
   background: none;
 	text-transform: lowercase; 
-  background: var(--gradient3);
+  background: var(--gradient2);
 }
 
 .blujournal h2 {
@@ -224,7 +224,7 @@
   padding: 30px 20px;
   background: none;
   text-transform: lowercase;
-  background: var(--gradient2);
+  background: var(--gradient1);
   border: black 0px solid;
   margin-bottom: 30px;
   border-radius: 15px 15px 0px 0px;
