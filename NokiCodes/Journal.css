@@ -104,7 +104,7 @@
 }
 
 .blujournal h2 {
-  margin: -4px 0 4px;
+  margin: -4px 4px 4px 0px;
   font: 500 calc(var(--Font_Size) * 1.4) var(--H2); 
   -webkit-text-fill-color: var(--bg);
 }
