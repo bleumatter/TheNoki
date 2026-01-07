@@ -13,7 +13,7 @@
 --nokiaslPhoneBG:url(https://i.pinimg.com/736x/84/e3/22/84e322fa699ec97d7fc41c46d733c48e.jpg); background-repeat: no-repeat; background-size: 320px 520px;
 }
 .Charles {
---nokiaslAccent1: #6C9FB7;
+--gradient: linear-gradient(55deg, rgba(87, 199, 100) 0%, rgba(66, 192, 214) 70%);
 --phonecolor: #222;
 --case: #374C34;
 --nokiaslPhoneBG:url(https://i.pinimg.com/1200x/bf/9d/14/bf9d145806dd7cfb86312d998abdfcd2.jpg); background-repeat: no-repeat; background-size: 320px 520px;
