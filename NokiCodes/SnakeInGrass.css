@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   
@@ -41,7 +41,7 @@
   filter: brightness(0.8);
 }
 .GrassSnake-3 {
-  font-family: Merriweather;
+  font-family: Poppins;
   font-size: 12px;
   line-height: 147%;
   color: #555;
@@ -64,7 +64,7 @@
 }
 .GrassSnake-3 b {
   padding: 5px;
-  font-family: Merriweather;
+  font-family: Poppins;
   -webkit-text-fill-color: revert; 
   font-weight: 900;
   text-transform: none;
