@@ -7,6 +7,7 @@
   
   .Charles {
   --gradient: linear-gradient(55deg, rgba(85, 138, 105) 0%, rgba(109, 178, 189) 80%);
+  --gradient1: linear-gradient(55deg, rgba(85, 138, 105) 0%, rgba(109, 178, 189) 20%);
 }
 
 }
@@ -15,7 +16,7 @@
   width: 600px;
   padding: 20px 20px 30px 20px;
   border-radius: 15px;
-  background: var(--gradient);
+  background: var(--gradient1);
 }
 .GrassSnake-1 {
   width: 100%;
