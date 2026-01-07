@@ -15,7 +15,7 @@
   width: 600px;
   padding: 20px 20px 30px 20px;
   border-radius: 15px;
-  background: var(--gradient5);
+  background: var(--gradient);
 }
 .GrassSnake-1 {
   width: 100%;
@@ -78,7 +78,7 @@
 }
 
 .GrassSnake-3 q {
-  color: var(--color1);
+  color: var(--gradient);
   padding: 2px;
   font-size: 13px;
   filter: brightness(0.8);
@@ -102,13 +102,13 @@
 }
 .GrassSnake-3 a {
   text-decoration: none;
-  color: var(--accent);
+  color: var(--gradient);
 }
 
 .GrassSnake-4 {
   width: 100%;
   height: 430px;
-  background: var(--gradient4);
+  background: var(--gradient);
   background-blend-mode: multiply;
   filter: grayscale(30%);
   background-size: cover;
@@ -154,7 +154,7 @@
   text-align: left;
   font-size: 9px;
   font-weight: 100;
-  color: var(--color2);
+  color: var(--gradient);
   border-radius: 20px;
   border: solid white 1px;
   font-family: verdana;
@@ -162,12 +162,12 @@
 }
 
 .GrassSnake-6 a {
-  color: var(--color2);
+  color: var(--gradient);
   text-decoration: none;
 }
 
 .GrassSnake-6 i {
-  color: var(--color2);
+  color: var(--gradient);
   text-decoration: none;
   font-size: 14px;
   margin: 0px 7px 0px 0px;
