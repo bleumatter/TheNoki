@@ -6,7 +6,7 @@
 :root {
   
   .Charles {
-  --gradient: linear-gradient(55deg, rgba(85, 138, 105) 0%, rgba(109, 178, 189) 80%);
+  --gradient: linear-gradient(65deg, rgba(85, 138, 105) 0%, rgba(109, 178, 189) 80%);
   --gradient1: linear-gradient(45deg, rgba(85, 138, 105, .3) 0%, rgba(109, 178, 189, .3) 80%);
 }
 
