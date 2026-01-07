@@ -64,7 +64,6 @@
   margin-left: -290px;
 }
 .GrassSnake-3 b {
-  padding: 5px;
   font-family: Poppins;
   -webkit-text-fill-color: revert; 
   font-weight: 900;
@@ -168,9 +167,9 @@
 }
 
 .GrassSnake-6 i {
-  color: var(--gradient);
-  text-decoration: none;
-  font-size: 14px;
-  margin: 0px 7px 0px 0px;
-  float: left;
+  font-family: Poppins;
+  -webkit-text-fill-color: revert; 
+  font-weight: 300;
+  text-transform: none;
+  filter: brightness(0.8);
 }
