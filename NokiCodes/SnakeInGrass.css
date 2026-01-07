@@ -7,7 +7,7 @@
   
   .Charles {
   --gradient: linear-gradient(55deg, rgba(85, 138, 105) 0%, rgba(109, 178, 189) 80%);
-  --gradient1: linear-gradient(45deg, rgba(85, 138, 105) 0%, rgba(109, 178, 189) 20%);
+  --gradient1: linear-gradient(45deg, rgba(85, 138, 105) 0%, rgba(109, 178, 189) 80%);
 }
 
 }
