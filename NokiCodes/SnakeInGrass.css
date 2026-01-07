@@ -3,6 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root {
+  
+  .Charles {
+  --gradient: linear-gradient(55deg, rgba(87, 199, 100) 0%, rgba(66, 192, 214) 70%);
+}
+
+}
+
 .GrassSnake {
   width: 600px;
   padding: 20px 20px 30px 20px;
