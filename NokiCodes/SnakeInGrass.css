@@ -7,11 +7,11 @@
 
 .Aaron {
   --gradient: linear-gradient(65deg, rgba(201, 103, 46) 0%, rgba(204, 178, 118) 100%);
-  --gradient1: linear-gradient(45deg, rgba(201, 103, 46, .3) 0%, rgba(230, 185, 80, .2) 100%);
+  --gradient1: linear-gradient(45deg, rgba(201, 103, 46, .2) 0%, rgba(230, 185, 80, .2) 100%);
 }
 .Charles {
   --gradient: linear-gradient(65deg, rgba(85, 138, 105) 0%, rgba(109, 178, 189) 100%);
-  --gradient1: linear-gradient(45deg, rgba(85, 138, 105, .3) 0%, rgba(109, 178, 189, .2) 100%);
+  --gradient1: linear-gradient(45deg, rgba(85, 138, 105, .2) 0%, rgba(109, 178, 189, .2) 100%);
 }
 .Cirilla {
 }
@@ -26,6 +26,8 @@
 .Dustin {
 }
 .Enkh-Baatar {
+  --gradient: linear-gradient(65deg, rgba(52, 97, 163) 0%, rgba(92, 196, 214) 100%);
+  --gradient1: linear-gradient(45deg, rgba(52, 97, 163, .2) 0%, rgba(92, 196, 214, .2) 100%);
 }
 .Hyacinth {
 }
