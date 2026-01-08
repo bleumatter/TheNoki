@@ -4,14 +4,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-  
+
+.Aaron {
+  --gradient: linear-gradient(65deg, rgba(196, 111, 61) 0%, rgba(196, 111, 61) 100%);
+  --gradient1: linear-gradient(45deg, rgba(196, 111, 61, .3) 0%, rgba(196, 111, 61, .3) 100%);
+}
 .Charles {
   --gradient: linear-gradient(65deg, rgba(85, 138, 105) 0%, rgba(109, 178, 189) 100%);
   --gradient1: linear-gradient(45deg, rgba(85, 138, 105, .3) 0%, rgba(109, 178, 189, .3) 100%);
 }
-.Aaron {
-  --gradient: linear-gradient(65deg, rgba(196, 111, 61) 0%, rgba(196, 111, 61) 100%);
-  --gradient1: linear-gradient(45deg, rgba(196, 111, 61, .3) 0%, rgba(196, 111, 61, .3) 100%);
+.Cirilla {
+}
+.Dexter {
+}
+.Donovan {
+}
+.Dorothea {
+}
+.Draven {
+}
+.Dustin {
+}
+.Enkh-Baatar {
+}
+.Hyacinth {
+}
+.Isaac {
+}
+.Louise {
+}
+.Lyle {
+}
+.Rafael {
+}
+.Ramiel {
+}
+.Silas {
+}
+.Somhairle {
+}
+.Theodore {
 }
 
 .GrassSnake {
