@@ -191,6 +191,7 @@
   border: solid white 1px;
   font-family: verdana;
   text-transform: lowercase;
+  opacity: .9;
 }
 
 .GrassSnake-6 a {
