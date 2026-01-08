@@ -66,7 +66,6 @@
   margin-left: -290px;
 }
 .GrassSnake-3 b {
-  font-family: Poppins;
   -webkit-text-fill-color: revert; 
   font-weight: 900;
   text-transform: none;
@@ -98,9 +97,8 @@
 }
 
 .GrassSnake-3 i {
-  color: var(--color1);
+  color: var(--gradient);
   filter: brightness(0.7);
-  font-family: Merriweather;
 }
 .GrassSnake-3 a {
   text-decoration: none;
