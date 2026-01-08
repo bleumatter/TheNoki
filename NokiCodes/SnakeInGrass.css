@@ -200,6 +200,7 @@
 
 .GrassSnake-6 i {
   font-family: Poppins;
+  color: var(--gradient);
   -webkit-text-fill-color: revert; 
   font-weight: 300;
   text-transform: none;
