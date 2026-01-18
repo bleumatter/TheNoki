@@ -51,14 +51,14 @@
 .GrassSnake {
   width: 600px;
   padding: 20px 20px 30px 20px;
-  border-radius: 25px;
+  border-radius: 35px;
   background: var(--gradient1);
 }
 .GrassSnake-1 {
   width: 100%;
   background-color: var(--aaa);
   padding-top: 30px;
-  border-radius: 20px;
+  border-radius: 35px;
   border: 1px solid var(--bord);
 }
 .GrassSnake-2 {
