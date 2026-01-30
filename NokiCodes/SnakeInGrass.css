@@ -18,8 +18,8 @@
 .Dexter {
 }
 .Nova {
-  --gradient: linear-gradient(65deg, rgba(102, 77, 117) 0%, rgba(117, 189, 182) 100%);
-  --gradient1: linear-gradient(45deg, rgba(102, 77, 117, .2) 0%, rgba(117, 189, 182, .2) 100%);
+  --gradient: linear-gradient(65deg, rgba(102, 77, 117) 0%, rgba(117, 189, 182) 60%);
+  --gradient1: linear-gradient(45deg, rgba(102, 77, 117, .2) 0%, rgba(117, 189, 182, .2) 60%);
 }
 .Dorothea {
 }
