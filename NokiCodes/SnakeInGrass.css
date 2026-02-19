@@ -16,6 +16,8 @@
 .Cirilla {
 }
 .Dexter {
+  --gradient: linear-gradient(65deg, rgba(130, 47, 47) 0%, rgba(78, 59, 99) 100%);
+  --gradient1: linear-gradient(45deg, rgba(130, 47, 47, .2) 0%, rgba(78, 59, 99, .2) 100%);
 }
 .Nova {
   --gradient: linear-gradient(65deg, rgba(149, 111, 171) 0%, rgba(117, 189, 182) 60%);
