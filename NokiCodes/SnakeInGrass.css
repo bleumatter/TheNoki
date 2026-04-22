@@ -48,6 +48,8 @@
 .Ramiel {
 }
 .Silas {
+  --gradient: linear-gradient(65deg, rgba(47, 53, 71) 0%, rgba(55, 58, 63) 100%);
+  --gradient1: linear-gradient(45deg, rgba(47, 53, 71, .2) 0%, rgba(55, 58, 63, .2) 100%);
 }
 .Somhairle {
 }
