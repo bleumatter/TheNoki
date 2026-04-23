@@ -8,20 +8,24 @@
 .Aaron {
   --gradient: linear-gradient(65deg, rgba(201, 103, 46) 0%, rgba(204, 178, 118) 100%);
   --gradient1: linear-gradient(45deg, rgba(201, 103, 46, .2) 0%, rgba(230, 185, 80, .2) 100%);
+  --handwriting:
 }
 .Charles {
   --gradient: linear-gradient(65deg, rgba(85, 138, 105) 0%, rgba(109, 178, 189) 100%);
   --gradient1: linear-gradient(45deg, rgba(85, 138, 105, .2) 0%, rgba(109, 178, 189, .2) 100%);
+  --handwriting: Shadows Into Light Two;
 }
 .Cirilla {
 }
 .Dexter {
   --gradient: linear-gradient(65deg, rgba(130, 47, 47) 0%, rgba(112, 70, 95) 100%);
   --gradient1: linear-gradient(45deg, rgba(130, 47, 47, .2) 0%, rgba(112, 70, 95, .2) 100%);
+  --handwriting:
 }
 .Nova {
   --gradient: linear-gradient(65deg, rgba(149, 111, 171) 0%, rgba(117, 189, 182) 60%);
   --gradient1: linear-gradient(45deg, rgba(149, 111, 171, .2) 0%, rgba(117, 189, 182, .2) 60%);
+  --handwriting:
 }
 .Dorothea {
 }
@@ -32,6 +36,7 @@
 .Enkh-Baatar {
   --gradient: linear-gradient(65deg, rgba(52, 97, 163) 0%, rgba(92, 196, 214) 100%);
   --gradient1: linear-gradient(45deg, rgba(52, 97, 163, .2) 0%, rgba(92, 196, 214, .2) 100%);
+  --handwriting:
 }
 .Hyacinth {
 }
@@ -44,12 +49,14 @@
 .Rafael {
   --gradient: linear-gradient(65deg, rgba(227, 152, 156) 0%, rgba(242, 201, 172) 100%);
   --gradient1: linear-gradient(45deg, rgba(227, 152, 156, .2) 0%, rgba(1242, 201, 172, .2) 100%);
+  --handwriting:
 }
 .Ramiel {
 }
 .Silas {
   --gradient: linear-gradient(65deg, rgba(100, 103, 161) 0%, rgba(55, 58, 63) 100%);
   --gradient1: linear-gradient(45deg, rgba(100, 103, 161, .2) 0%, rgba(55, 58, 63, .2) 100%);
+  --handwriting:
 }
 .Somhairle {
 }
@@ -70,7 +77,6 @@
   border: 1px solid var(--bord);
 }
 .GrassSnake-2 {
-  font-family: lobster;
   font-size: 45px;
   text-align: left;
   margin-left: 60px;
@@ -83,6 +89,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-right: 5px;
+  font-family: var(--handwriting);
 }
 .GrassSnake-3 {
   font-family: Poppins;
