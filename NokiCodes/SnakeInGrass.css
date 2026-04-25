@@ -61,8 +61,8 @@
 .Somhairle {
 }
 .Theodore {
-  --gradient: linear-gradient(65deg, rgba(60, 101, 158) 0%, rgba(70, 88, 112) 100%);
-  --gradient1: linear-gradient(45deg, rgba(60, 101, 158, .2) 0%, rgba(70, 88, 112, .2) 100%);
+  --gradient: linear-gradient(65deg, rgba(62, 106, 168) 0%, rgba(96, 168, 167) 100%);
+  --gradient1: linear-gradient(45deg, rgba(62, 106, 168, .2) 0%, rgba(96, 168, 167, .2) 100%);
   --handwriting: Annie Use Your Telescope;
   
 }
