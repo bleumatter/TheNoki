@@ -108,7 +108,7 @@
 .GrassSnake-4 > d {
   font-weight: 900;
   font-size: 110pt;
-  font-family: Lobster;
+  font-family: var(--handwriting);
   opacity: .05;
   position: absolute;
   margin-top: 20px;
@@ -169,7 +169,7 @@
   margin-bottom: -240px;
 }
 .GrassSnake-5 {
-  font-family: Lobster;
+  font-family: var(--handwriting);
   font-size: 48pt;
   letter-spacing: 3px;
   background-image: var(--BGImage);
