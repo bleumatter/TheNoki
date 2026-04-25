@@ -56,11 +56,15 @@
 .Silas {
   --gradient: linear-gradient(65deg, rgba(100, 103, 161) 0%, rgba(55, 58, 63) 100%);
   --gradient1: linear-gradient(45deg, rgba(100, 103, 161, .2) 0%, rgba(55, 58, 63, .2) 100%);
-  --handwriting:
+  --handwriting: ;
 }
 .Somhairle {
 }
 .Theodore {
+  --gradient: linear-gradient(65deg, rgba(60, 101, 158) 0%, rgba(70, 88, 112) 100%);
+  --gradient1: linear-gradient(45deg, rgba(60, 101, 158, .2) 0%, rgba(70, 88, 112, .2) 100%);
+  --handwriting: Annie Use Your Telescope;
+  
 }
 
 .GrassSnake {
