@@ -54,8 +54,8 @@
 .Ramiel {
 }
 .Silas {
-  --gradient: linear-gradient(65deg, rgba(100, 103, 161) 0%, rgba(55, 58, 63) 100%);
-  --gradient1: linear-gradient(45deg, rgba(100, 103, 161, .2) 0%, rgba(55, 58, 63, .2) 100%);
+  --gradient: linear-gradient(65deg, rgba(104, 179, 111) 0%, rgba(96, 158, 168) 100%);
+  --gradient1: linear-gradient(45deg, rgba(104, 179, 111, .2) 0%, rgba(96, 158, 168, .2) 100%);
   --handwriting: ;
 }
 .Somhairle {
