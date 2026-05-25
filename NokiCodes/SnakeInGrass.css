@@ -19,8 +19,8 @@
 .Cirilla {
 }
 .Dexter {
-  --gradient: linear-gradient(65deg, rgba(130, 47, 47) 0%, rgba(112, 70, 95) 100%);
-  --gradient1: linear-gradient(45deg, rgba(130, 47, 47, .2) 0%, rgba(112, 70, 95, .2) 100%);
+  --gradient: linear-gradient(65deg, rgba(189, 76, 76) 0%, rgba(142, 108, 165) 100%);
+  --gradient1: linear-gradient(45deg, rgba(189, 76, 76, .2) 0%, rgba(142, 108, 165, .2) 100%);
   --handwriting: Mrs Saint Delafield;
 }
 .Nova {
