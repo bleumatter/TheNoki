@@ -9,7 +9,7 @@
 .Aaron {
   --gradient: linear-gradient(65deg, rgba(201, 103, 46) 0%, rgba(204, 178, 118) 100%);
   --gradient1: linear-gradient(45deg, rgba(201, 103, 46, .2) 0%, rgba(230, 185, 80, .2) 100%);
-  --handwriting:
+  --handwriting: Over the Rainbow;
 }
 .Charles {
   --gradient: linear-gradient(65deg, rgba(85, 138, 105) 0%, rgba(109, 178, 189) 100%);
