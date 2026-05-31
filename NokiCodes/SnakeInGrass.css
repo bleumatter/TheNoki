@@ -54,6 +54,9 @@
 }
 .Ramiel {
 }
+.Sachico {
+  --handwriting: Meow Script;
+}
 .Silas {
   --gradient: linear-gradient(65deg, rgba(104, 179, 111) 0%, rgba(96, 158, 168) 100%);
   --gradient1: linear-gradient(45deg, rgba(104, 179, 111, .2) 0%, rgba(96, 158, 168, .2) 100%);
@@ -65,7 +68,11 @@
   --gradient: linear-gradient(65deg, rgba(62, 106, 168) 0%, rgba(96, 168, 167) 100%);
   --gradient1: linear-gradient(45deg, rgba(62, 106, 168, .2) 0%, rgba(96, 168, 167, .2) 100%);
   --handwriting: Annie Use Your Telescope;
-  
+}
+.Zeshin {
+    --gradient: linear-gradient(65deg, rgba(62, 106, 168) 0%, rgba(96, 168, 167) 100%);
+  --gradient1: linear-gradient(45deg, rgba(62, 106, 168, .2) 0%, rgba(96, 168, 167, .2) 100%);
+    --handwriting: WindSong;
 }
 
 .GrassSnake {
