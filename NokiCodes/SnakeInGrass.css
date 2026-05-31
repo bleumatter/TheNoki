@@ -70,8 +70,8 @@
   --handwriting: Annie Use Your Telescope;
 }
 .Zeshin {
-    --gradient: linear-gradient(65deg, rgba(62, 106, 168) 0%, rgba(96, 168, 167) 100%);
-  --gradient1: linear-gradient(45deg, rgba(62, 106, 168, .2) 0%, rgba(96, 168, 167, .2) 100%);
+    --gradient: linear-gradient(65deg, rgba(154, 72, 90) 0%, rgba(223, 164, 176) 100%);
+  --gradient1: linear-gradient(45deg, rgba(154, 72, 90, .2) 0%, rgba(223, 164, 176, .2) 100%);
     --handwriting: WindSong;
 }
 
