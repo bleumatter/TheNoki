@@ -46,7 +46,7 @@
 .JP {
   --gradient: linear-gradient(65deg, rgba(203, 189, 163) 0%, rgba(113, 124, 128) 100%);
   --gradient1: linear-gradient(45deg, rgba(203, 189, 163, .2) 0%, rgba(113, 124, 128, .2) 100%);
-  --handwriting:
+  --handwriting: Reenie Beanie;
 }
 .Louise {
 }
