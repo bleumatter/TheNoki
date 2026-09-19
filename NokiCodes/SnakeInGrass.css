@@ -46,6 +46,9 @@
 .Draven {
 }
 .Dustin {
+  --gradient: linear-gradient(65deg, rgba(87, 123, 158) 0%, rgba(134, 174, 195) 100%);
+  --gradient1: linear-gradient(45deg, rgba(87, 123, 158, .2) 0%, rgba(134, 174, 195, .2) 100%);
+  --handwriting: Mrs Saint Delafield;
 }
 .Enkh-Baatar {
   --gradient: linear-gradient(65deg, rgba(52, 97, 163) 0%, rgba(92, 196, 214) 100%);
